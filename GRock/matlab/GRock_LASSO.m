@@ -125,7 +125,7 @@ hist.time    = hist.time(1:iter);
 hist.obj_err = hist.obj_err(1:iter);
 hist.rel_err = hist.rel_err(1:iter);
 hist.epoch   = hist.epoch(1:iter);
-hist.P   = hist.P(1:iter);
+hist.P       = hist.P(1:iter);
 
 %% nested functions
     function [maxIter, obj_tol, rel_tol, print, xs, P, sigma, mode] = get_opts

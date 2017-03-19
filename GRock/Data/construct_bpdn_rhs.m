@@ -1,15 +1,12 @@
 function [b,y] = construct_bpdn_rhs(A,x,lambda,varargin)
 %function [b,y] = construct_bdpn_rhs(A,x,lambda);
-% For a given k times n matrix A, a give n-vector x and a given positive
-% lambda, this function gives a k-vector b such that x is a solution of
+% For a given k times n matrix A, a give n-vector x and a given positive lambda, this function gives a k-vector b such that x is a solution of
 %
 %  min ||Ax - b||_2^2/2 + lambda ||x||_1.
 %
 % For the output y see below.
 %
-% The instance (A,b,x,lambda) can also be used as test instances for other
-% reformulations of the Basis Pursuit Denoising. Namely, be setting tau =
-% norm(x,1), the vector x is a solution of
+% The instance (A,b,x,lambda) can also be used as test instances for other reformulations of the Basis Pursuit Denoising. Namely, be setting tau = norm(x,1), the vector x is a solution of
 %
 %  min ||Ax - b||_2 s.t. ||x||_1 <= tau
 %
@@ -23,23 +20,17 @@ function [b,y] = construct_bpdn_rhs(A,x,lambda,varargin)
 %  lambda: positive parameter.
 %
 % Optional input:
-%  method: Chooses the method for solving the constraint minimization
-%     problem. Can be either 'projected' (for the projected gradient method,
-%     default), or 'conditional' (for the conditional gradient method).
-%  maxIter: Maximal number of iteration for solving the constraint
-%     minimization problem (default: 10*n).
-%  tolres: Tolerance of the residual in the algorithm for the solution of
-%     the constraint minimization problem (default: 1e-6).
-%  tols: Another tolerance which is only needed for conditional gradient
-%     method (somehow tolerance on the stepsize, default 1e-6).
+%  method: Chooses the method for solving the constraint minimization problem. Can be either 'projected' (for the projected gradient method, default), or 'conditional' (for the conditional gradient method).
+%  maxIter: Maximal number of iteration for solving the constraint minimization problem (default: 10*n).
+%  tolres: Tolerance of the residual in the algorithm for the solution of the constraint minimization problem (default: 1e-6).
+%  tols: Another tolerance which is only needed for conditional gradient method (somehow tolerance on the stepsize, default 1e-6).
 %  Verbose: : no output on screen (0, default), lots of output (1).
 %
 % Output:
-%   Two k-vectors b and y. b is as specified above and
+%   Two k-vectors b and y.
+%   b is as specified above and
 %   y is such that A'*y is an element of the multivalued sign of x.
-%   With the help of y one can contruct other valid right hands for
-%   different values of lambda and difference vectors x which have the same
-%   sign pattern by simply setting.
+%   With the help of y one can contruct other valid right hands for different values of lambda and difference vectors x which have the same sign pattern by simply setting.
 %     b = lambda*y + A*x.
 %
 % Example:
@@ -66,25 +57,25 @@ tols = 1e-12;
 method = 'pocs';
 verbose = 0;
 if (rem(length(varargin),2)==1)
-  error('Optional parameters should always go by pairs');
+    error('Optional parameters should always go by pairs');
 else
-  for i=1:2:(length(varargin)-1)
-    switch varargin{i}
-     case 'maxIter'
-       maxIter = varargin{i+1};
-     case 'Verbose'
-       verbose = varargin{i+1};
-     case 'tolres'
-       tolres = varargin{i+1};
-     case 'tols'
-       tols = varargin{i+1};
-     case 'method'
-       method = varargin{i+1};
-     otherwise
-      % Hmmm, something wrong with the parameter string
-      error(['Unrecognized option: ''' varargin{i} '''']);
+    for i=1:2:(length(varargin)-1)
+        switch varargin{i}
+            case 'maxIter'
+                maxIter = varargin{i+1};
+            case 'Verbose'
+                verbose = varargin{i+1};
+            case 'tolres'
+                tolres = varargin{i+1};
+            case 'tols'
+                tols = varargin{i+1};
+            case 'method'
+                method = varargin{i+1};
+            otherwise
+                % Hmmm, something wrong with the parameter string
+                error(['Unrecognized option: ''' varargin{i} '''']);
+        end;
     end;
-  end;
 end
 U = orth(A'); % Orthonormal basis for rg A'
 P = U*U';     % Projection on rg A'
@@ -105,19 +96,19 @@ switch lower(method)
         w(x<0) = - lambda;
         % and v
         v = w(x~=0);
-
+        
         En = eye(n);
         Pz = En(:,x==0);
         Pv = En(:,x~=0);
-
-
+        
+        
         Pbar = (P*Pz - Pz);
         vbar = (Pv - P*Pv)*v;
-
+        
         % Now calculate z by solving P3*z = vv s.t. |z|<= lambda
         % with the conditional gradient method:
         z = zeros(n-s,1);
-
+        
         if strcmp(method,'conditional')
             for iter =1:maxIter
                 Pbarz = Pbar*z;
@@ -131,7 +122,7 @@ switch lower(method)
                 ss = (res)'*(Pbarzp)/norm(Pbarzp)^2;
                 if objval < tolres*lambda && ss < tols*lambda
                     if verbose
-                        fprintf('Conditional gradient method converged after %d iterations...\n',iter) 
+                        fprintf('Conditional gradient method converged after %d iterations...\n',iter)
                     end
                     break
                 end
@@ -148,7 +139,7 @@ switch lower(method)
                 end
                 if objval < tolres*lambda
                     if verbose
-                        fprintf('Projected gradient method converged after %d iterations...\n',iter) 
+                        fprintf('Projected gradient method converged after %d iterations...\n',iter)
                     end
                     break
                 end
@@ -157,10 +148,10 @@ switch lower(method)
         if objval>tolres*lambda
             error('No right hand side b found for this x. Try using a more sparse x.')
         end
-
+        
         % Build w:
         w(x==0) = z;
-
+        
         if verbose
             %Check, if w is in the range of A^T:
             fprintf('Is calculated w in rg A^T?: norm(Pw-w) = %e\n',norm(P*w-w))
@@ -170,7 +161,7 @@ switch lower(method)
                 error('   No! Something went wrong...\n\n')
             end
         end
-
+        
     case {'pocs'} % Projection onto convex sets
         w0 = zeros(n,1);
         w0(x>0) = +lambda;
@@ -215,8 +206,9 @@ function y = C(x,lambda)
 y = sign(x).*min(abs(x),lambda);
 
 function y = Ps(x,pattern,lambda)
-% 
+%
 y = 0*x;
 y(pattern > 0) = lambda;
 y(pattern < 0) = -lambda;
 y(pattern== 0) = C(x(pattern==0),lambda);
+
