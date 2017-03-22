@@ -1,0 +1,14 @@
+﻿  algebra.cc
+..\..\src\algebra.cc(75): warning C4101: 'j': unreferenced local variable
+..\..\src\algebra.cc(267): warning C4101: 'k': unreferenced local variable
+..\..\src\algebra.cc(267): warning C4101: 'j': unreferenced local variable
+  logistic.cc
+  matrices.cc
+  test_logistic.cc
+..\..\src\test_logistic.cc(228): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+..\..\src\test_logistic.cc(243): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Generating code
+  All 904 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  logistic_regression.vcxproj -> E:\Documents\Xing\西厢计划\code-reading\ARock\visual_studio\Release\logistic_regression.exe
+  logistic_regression.vcxproj -> E:\Documents\Xing\西厢计划\code-reading\ARock\visual_studio\Release\logistic_regression.pdb (Full PDB)
