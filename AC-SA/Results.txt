@@ -1,0 +1,88 @@
+     
+**************************** Data: N200-d50-st2 , rho:    0.1
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.15     Final objective value:  5.63
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.14     Final objective value:  5.65
+     
+**************************** Data: N200-d50-st2 , rho:    0.1
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.14     Final objective value:  5.70
+     
+**************************** Data: N200-d20-st2 , rho:    0.1
+     
+*** Running Multi-stage AC-SA
+     
+       Runtime: 0.14     Final objective value:  5.39
+     
+**************************** Data: N200-d20-st2 , rho:    0.1
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.13     Final objective value:  4.94
+     
+**************************** Data: N200-d20-st2 , rho:    0.1
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.13     Final objective value:  4.94
+     
+**********Data: N200-d20-st2 , rho:    0.1
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.17     Final objective value:  4.94
+     
+*** Running Multi-stage AC-SA
+     
+       Runtime: 0.17     Final objective value:  5.34
+     
+*** Running Shrinking single-stage AC-SA
+     
+       Runtime: 0.18     Final objective value:  4.90
+     
+*** Running Shrinking multi-stage AC-SA
+     
+       Runtime: 0.17     Final objective value:  6.10
+     
+*** Running Classic SA
+     
+       Runtime: 0.16     Final objective value: 182.28
+     
+*** Running Batch-learning
+     
+       Runtime: 0.00     Final objective value:  4.95
+     
+********** Data: N200-d20-st2 , rho:   0.01
+     
+*** Running Classic SA
+     
+       Runtime: 0.17     Final objective value: 449005.88
+     
+********** Data: N200-d20-st2 , rho:   0.01
+     
+*** Running Classic SA
+     
+       Runtime: 0.17     Final objective value: 99943157626646136000000000000000000000000000000000000000000.00
+     
+********** Data: N200-d20-st2 , rho:   0.01
+     
+*** Running Classic SA
+     
+       Runtime: 0.17     Final objective value: 21.87
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.17     Final objective value:  4.40
+     
+**********Data: N100-d30-st3.mat , rho:    0.1
+     
+*** Running Single-stage AC-SA
+     
+       Runtime: 0.26     Final objective value: 10.41

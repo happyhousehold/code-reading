@@ -1,0 +1,8 @@
+     
+*** Running Single-stage AC-SA: lambda =    0.1
+     
+       Runtime: 0.15     Final objective value:  5.63
+     
+*** Running Multi-stage AC-SA: lambda =    0.1
+     
+       Runtime: 0.14     Final objective value:  6.07
