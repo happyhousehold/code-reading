@@ -86,3 +86,13 @@
 *** Running Single-stage AC-SA
      
        Runtime: 0.26     Final objective value: 10.41
+     
+********** Data: N100-d30-st3.mat , rho:    0.1
+     
+*** Running Batch-learning
+     
+       Runtime: 0.00     Final objective value: 10.51
+     
+*** Running Classic SA
+     
+       Runtime: 0.26     Final objective value: 11697.10
