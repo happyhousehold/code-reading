@@ -1,0 +1,1020 @@
+** generate data: En100m50d50**
+** run NEST for: En100m50d50**
+** generate data: En100m50d50**
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+Summary: nstep=101, UB=26.617197**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** generate data: En100m20d1**
+** run NEST for: En100m20d1**
+** generate data: En10m5d50**
+** run NEST for: En10m5d50**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=3.788904**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=3.788904**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=0, UB=3.788922**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=5001, UB=3.788964**
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=3.788904**
+** load data: En10m5d50
+** load data: En10m5d50
+** load data: En10m5d50
+** load data: En10m5d50
+** load data: En10m5d50
+** load data: En10m5d50
+** load data: En10m5d50
+** generate data: En10m5d50**
+** load data: En10m5d50
+** generate data: En10m5d50**
+** run NEST for: En10m5d50**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=1.984471**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=1.984471e+000, UB0=1.983155e+000**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=1.984471e+000, UB0=1.983155e+000**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=1.984547e+000, UB0=1.984547e+000**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=2.018854e+000, UB0=1.983255e+000**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=2.542139e+000, UB0=2.542139e+000**
+** generate data: En1000m50d20**
+** run NEST for: En1000m50d20**
+** load data: En1000m50d20
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=6.042919e+000, UB0=6.015667e+000**
+** load data: En1000m50d20
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=5.985057e+000, UB0=5.984900e+000**
+** load data: En1000m50d20
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=6.100643e+000, UB0=6.105643e+000**
+** load data: En1000m50d20
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run NEST for: En1000m50d20**
+Summary: nstep=1001, UB=7.458389e+000, UB0=7.463389e+000**
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=1.979121e+000, UB0=1.984121e+000**
+** load data: En10m5d50
+** run NEST for: En10m5d50**
+Summary: nstep=10001, UB=2.736630e+000, UB0=2.736630e+000**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=4, UB=1.48e+000, LB=2.12e+000, stepUB=1.48e+000, stepLB=2.12e+000, time= 3.19
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=11, UB=1.99e+000, LB=1.98e+000, stepUB=1.99e+000, stepLB=1.98e+000, time= 1.53
+**
+** run APL for: En10m5d50**
+Summary: nstep=21, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time= 3.87
+**
+** run APL for: En10m5d50**
+Summary: nstep=31, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time= 8.86
+**
+** run APL for: En10m5d50**
+Summary: nstep=41, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time=14.98
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=101, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time= 7.30
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=31, UB=5.99e+000, LB=5.96e+000, stepUB=5.99e+000, stepLB=5.96e+000, time=24.51
+**
+** run APL for: En1000m50d20**
+Summary: nstep=101, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=91.93
+**
+** run APL for: En1000m50d20**
+Summary: nstep=101, UB=5.98e+000, LB=5.96e+000, stepUB=5.98e+000, stepLB=5.96e+000, time=86.17
+**
+** run APL for: En1000m50d20**
+Summary: nstep=201, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=201.37
+**
+** run NEST for: En1000m50d20**
+Summary: nstep=1001, UB=7.506821e+000, UB0=7.506822e+000**
+** run APL for: En1000m50d20**
+Summary: nstep=201, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=306.85
+**
+** run APL for: En1000m50d20**
+Summary: nstep=201, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=486.61
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=201, UB=7.51e+000, LB=5.77e+000, stepUB=7.51e+000, stepLB=6.15e+000, time=68.16
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=101, UB=2.78e+000, LB=2.78e+000, stepUB=2.78e+000, stepLB=2.78e+000, time= 0.65
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=1001, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time=27.70
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** run APL for: En10m5d50**
+Summary: nstep=101, UB=2.78e+000, LB=2.78e+000, stepUB=2.78e+000, stepLB=2.78e+000, time= 0.69
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** generate data: En2000m500d2**
+** run APL for: En2000m500d2**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=101, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=250.98
+**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** generate data: En100m50d50**
+** run NEST for: En100m50d50**
+Summary: nstep=10001, UB=9.235230e+000, UB0=9.235231e+000**
+** run APL for: En100m50d50**
+Summary: nstep=1001, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time=67.45
+**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+Summary: nstep=10001, UB=8.082894e+000, UB0=8.087894e+000**
+** run NEST for: En100m50d50**
+Summary: nstep=10001, UB=7.602172e+000, UB0=8.038253e+000**
+** run NEST for: En100m50d50**
+Summary: nstep=10001, UB=7.232018e+000, UB0=8.077702e+000**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=201, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time=10.28
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=201, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time=10.05
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=81, UB=9.24e+000, LB=9.24e+000, stepUB=9.24e+000, stepLB=9.24e+000, time=10.39
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=1001, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time=75.16
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=81, UB=9.24e+000, LB=9.24e+000, stepUB=9.24e+000, stepLB=9.24e+000, time= 1.38
+**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** generate data: En100m20d1**
+** run APL for: En100m20d1**
+Summary: nstep=1001, UB=7.16e-001, LB=6.08e-001, stepUB=7.16e-001, stepLB=6.08e-001, time=13.00
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=1001, UB=2.78e+000, LB=2.78e+000, stepUB=2.78e+000, stepLB=2.78e+000, time= 6.73
+**
+** run APL for: En10m5d50**
+Summary: nstep=101, UB=2.78e+000, LB=2.78e+000, stepUB=2.78e+000, stepLB=2.78e+000, time= 0.71
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=1001, UB=2.78e+000, LB=2.78e+000, stepUB=2.78e+000, stepLB=2.78e+000, time= 6.35
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=78, UB=2.783285, LB=2.783284, stepUB=2.783285, stepLB=2.783284
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=33, UB=1.983141, LB=1.983140, stepUB=1.983141, stepLB=1.983140
+**
+** run APL for: En10m5d50**
+Summary: nstep=21, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time= 0.34
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=147, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=46.06
+**
+Summary: nstep=147, UB=5.983167, LB=5.983166, stepUB=5.983167, stepLB=5.983166
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=1001, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=338.23
+**
+** run APL for: En1000m50d20**
+Summary: nstep=155, UB=5.983166, LB=5.983166, stepUB=5.983166, stepLB=5.983166
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=147, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=46.12
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=301, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=97.17
+**
+** run APL for: En1000m50d20**
+Summary: nstep=201, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=63.82
+**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=1001, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time=24.58
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=201, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=64.34
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=201, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=516.96
+**
+** run NEST for: En2000m500d2**
+Summary: nstep=201, UB=7.560985e+000, UB0=7.560985e+000**
+** load data: 
+** load data: En1000m50d20
+** load data: En2000m500d2
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=147, UB=5.983167, LB=5.983166, stepUB=5.983167, stepLB=5.983166
+**
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=1001, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=344.64
+**
+Summary: nstep=147, UB=5.983167, LB=5.983166, stepUB=5.983167, stepLB=5.983166
+**
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=7.506391e+000, UB0=7.506392e+000**
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=6.100643e+000, UB0=6.105643e+000**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=268, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=97.93
+**
+** run APL for: En1000m50d20**
+Summary: nstep=243, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=98.48
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=262, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=105.94
+**
+** run APL for: En1000m50d20**
+Summary: nstep=301, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=150.68
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=282, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=755.27
+**
+** run APL for: En2000m500d2**
+Summary: nstep=198, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=531.00
+**
+** run APL for: En2000m500d2**
+Summary: nstep=226, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=642.99
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=268, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=88.87
+**
+** run APL for: En1000m50d20**
+Summary: nstep=285, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=93.93
+**
+** run APL for: En1000m50d20**
+Summary: nstep=291, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=96.49
+**
+** run APL for: En1000m50d20**
+Summary: nstep=316, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=144.02
+**
+** run APL for: En1000m50d20**
+Summary: nstep=321, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=146.59
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=218, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=106.50
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=256, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=117.94
+**
+Summary: nstep=175, UB=5.9827869e+000, LB=5.9827860e+000, stepUB=5.9827869e+000, stepLB=5.9827860e+000, Q=6.4000e+000, time=80.11
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=256, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=119.22
+**
+Summary: nstep=218, UB=5.9827960e+000, LB=5.9827950e+000, stepUB=5.9827959e+000, stepLB=5.9827950e+000, Q=4.0000e+000, time=107.25
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=226, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=648.50
+**
+Summary: nstep=181, UB=7.1290759e+000, LB=7.1290748e+000, stepUB=7.1290757e+000, stepLB=7.1290748e+000, Q=8.0000e+000, time=505.95
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=274, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=90.28
+**
+** run APL for: En1000m50d20**
+Summary: nstep=261, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=95.85
+**
+** run APL for: En1000m50d20**
+Summary: nstep=197, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=127.35
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=280, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=135.08
+**
+** load data: 
+** load data: 
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=274, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=90.03
+**
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=5.591590e+000, UB0=6.037577e+000**
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=5.952319e+000, UB0=5.998288e+000**
+** run NEST for: En1000m50d20**
+Summary: nstep=10001, UB=6.100643e+000, UB0=6.105643e+000**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+** generate data: En1000m500d2**
+** run APL for: En1000m500d2**
+Summary: nstep=133, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=253.35
+**
+** run APL for: En1000m500d2**
+Summary: nstep=146, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=300.47
+**
+Summary: nstep=139, UB=6.6811326e+000, LB=6.6811316e+000, stepUB=6.6811326e+000, stepLB=6.6811316e+000, Q=8.0000e+000, time=281.31
+**
+** load data: En1000m500d
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=164, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=322.20
+**
+** run APL for: En1000m500d2**
+Summary: nstep=164, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=321.94
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=146, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=300.60
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=948.56
+**
+** load data: En1000m500d2
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=304, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=595.96
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=210, UB=6.6811152e+000, LB=6.6811144e+000, stepUB=6.6811152e+000, stepLB=6.6811144e+000, Q=8.0000e+000, time=412.97
+**
+** run APL for: En1000m500d2**
+Summary: nstep=335, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=637.41
+**
+** run APL for: En1000m500d2**
+Summary: nstep=1001, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=1821.24
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=392.43
+**
+Summary: nstep=210, UB=6.6811152e+000, LB=6.6811144e+000, stepUB=6.6811152e+000, stepLB=6.6811144e+000, Q=8.0000e+000, time=408.33
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=187, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=361.75
+**
+Summary: nstep=177, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=310.52
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=1001, UB=6.681116, LB=6.681114, stepUB=6.681115, stepLB=6.681114
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=169, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=67.17
+**
+Summary: nstep=147, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=56.94
+**
+Summary: nstep=178, UB=5.9827778e+000, LB=5.9827773e+000, stepUB=5.9827778e+000, stepLB=5.9827773e+000, Q=4.0000e+000, time=71.36
+**
+Summary: nstep=118, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=42.87
+**
+Summary: nstep=204, UB=5.982778, LB=5.982777, stepUB=5.982778, stepLB=5.982777
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=259, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=700.99
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=232, UB=7.1290728e+000, LB=7.1290718e+000, stepUB=7.1290728e+000, stepLB=7.1290718e+000, Q=8.0000e+000, time=623.74
+**
+Summary: nstep=220, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=558.76
+**
+Summary: nstep=501, UB=7.129081, LB=7.129053, stepUB=7.129077, stepLB=7.129053
+**
+** generate data: En2000m100d20**
+** run APL for: En2000m100d20**
+Summary: nstep=349, UB=7.42e+000, LB=7.42e+000, stepUB=7.42e+000, stepLB=7.42e+000, time=360.83
+**
+Summary: nstep=347, UB=7.42e+000, LB=7.42e+000, stepUB=7.42e+000, stepLB=7.42e+000, time=351.05
+**
+Summary: nstep=350, UB=7.4200360e+000, LB=7.4200351e+000, stepUB=7.4200360e+000, stepLB=7.4200351e+000, Q=8.0000e+000, time=366.12
+**
+Summary: nstep=318, UB=7.42e+000, LB=7.42e+000, stepUB=7.42e+000, stepLB=7.42e+000, time=328.37
+**
+Summary: nstep=501, UB=7.420050, LB=7.419971, stepUB=7.420050, stepLB=7.419971
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=177, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=991.54
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+Summary: nstep=45, UB=7.13e-001, LB=7.13e-001, stepUB=7.13e-001, stepLB=7.13e-001, time=52.05
+**
+** generate data: diagn10m8d1**
+** run APL for: diagn10m8d1**
+Summary: nstep=42, UB=1.39e+000, LB=1.39e+000, stepUB=1.39e+000, stepLB=1.39e+000, time= 0.31
+**
+Summary: nstep=23, UB=1.39e+000, LB=1.39e+000, stepUB=1.39e+000, stepLB=1.39e+000, time= 0.33
+**
+Summary: nstep=44, UB=1.3869714e+000, LB=1.3869706e+000, stepUB=1.3869714e+000, stepLB=1.3869706e+000, Q=2.0000e+000, time= 0.41
+**
+Summary: nstep=21, UB=1.39e+000, LB=1.39e+000, stepUB=1.39e+000, stepLB=1.39e+000, time= 0.17
+**
+Summary: nstep=37, UB=1.386972, LB=1.386971, stepUB=1.386972, stepLB=1.386971
+**
+** generate data: diagn100m20d1**
+** run APL for: diagn100m20d1**
+Summary: nstep=59, UB=1.15e+000, LB=1.15e+000, stepUB=1.15e+000, stepLB=1.15e+000, time= 2.46
+**
+Summary: nstep=30, UB=1.15e+000, LB=1.15e+000, stepUB=1.15e+000, stepLB=1.15e+000, time= 0.83
+**
+Summary: nstep=50, UB=1.1516938e+000, LB=1.1516926e+000, stepUB=1.1516935e+000, stepLB=1.1516926e+000, Q=4.0000e+000, time= 1.70
+**
+Summary: nstep=21, UB=1.15e+000, LB=1.15e+000, stepUB=1.15e+000, stepLB=1.15e+000, time= 0.58
+**
+Summary: nstep=34, UB=1.151694, LB=1.151693, stepUB=1.151694, stepLB=1.151693
+**
+** run NEST for: diagn100m20d1**
+Summary: nstep=10001, UB=1.473131e+000, UB0=1.473132e+000**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+** run APL for: En1000m50d20**
+Summary: nstep=118, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=42.51
+**
+** run APL for: En1000m50d20**
+Summary: nstep=197, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=71.25
+**
+** run APL for: En1000m50d20**
+Summary: nstep=481, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=163.16
+**
+** run APL for: En1000m50d20**
+Summary: nstep=501, UB=5.98e+000, LB=5.98e+000, stepUB=5.98e+000, stepLB=5.98e+000, time=181.97
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=187, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=355.93
+**
+Summary: nstep=210, UB=6.6811152e+000, LB=6.6811144e+000, stepUB=6.6811152e+000, stepLB=6.6811144e+000, Q=8.0000e+000, time=397.66
+**
+Summary: nstep=177, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=300.64
+**
+Summary: nstep=501, UB=6.681119, LB=6.681111, stepUB=6.681117, stepLB=6.681111
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=220, UB=7.13e+000, LB=7.13e+000, stepUB=7.13e+000, stepLB=7.13e+000, time=551.15
+**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+** load data: En10m5d50
+** run APL for: En10m5d50**
+Summary: nstep=21, UB=1.98e+000, LB=1.98e+000, stepUB=1.98e+000, stepLB=1.98e+000, time= 3.79
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=178, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=221.41
+**
+Summary: nstep=501, UB=6.681119, LB=6.681111, stepUB=6.681117, stepLB=6.681111
+**
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=381.81
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=177, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=303.92
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=385.91
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=75, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=146.47
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=75, UB=6.675016e+000, LB=6.675018e+000, stepUB=6.675016e+000, stepLB=6.675018e+000, time=146.66
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=210, UB=6.378606e+000, LB=6.378605e+000, stepUB=6.378606e+000, stepLB=6.378605e+000, time=418.03
+**
+** load data: En2000m500d2
+** run APL for: En2000m500d2**
+Summary: nstep=143, UB=6.722401e+000, LB=6.722400e+000, stepUB=6.722401e+000, stepLB=6.722400e+000, time=364.51
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=177, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=305.60
+**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=210, UB=6.378606e+000, LB=6.378605e+000, stepUB=6.378606e+000, stepLB=6.378605e+000, time=419.22
+**
+** run NEST for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.681115e+000, LB=6.681114e+000, stepUB=6.681115e+000, stepLB=6.681114e+000, time=384.94
+**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=373, UB=7.596063e+000, LB=7.596062e+000, stepUB=7.596063e+000, stepLB=7.596062e+000, time=16.71
+**
+Summary: nstep=145, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time= 7.49
+**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.828227e+000, dataL=5.158689e+003
+**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.828227e+000, dataL=5.158689e+003
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=373, UB=7.596063e+000, LB=7.596062e+000, stepUB=7.596063e+000, stepLB=7.596062e+000, time=16.51
+**
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.828227e+000, dataL=5.158689e+003
+**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+** load data: En100m50d50
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=8.453030e+000, L=4.096000e+003
+**
+** run NEST for: En100m50d50**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=210, UB=6.378606e+000, LB=6.378605e+000, stepUB=6.378606e+000, stepLB=6.378605e+000, time=423.55
+**
+** load data: En1000m500d2
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=210, UB=6.378606e+000, LB=6.378605e+000, stepUB=6.378606e+000, stepLB=6.378605e+000, time=422.66
+**
+Summary: nstep=501, UB=6.38e+000, LB=6.38e+000, stepUB=6.38e+000, stepLB=6.38e+000, time=989.18
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run NEST for: En1000m500d2**
+** run APL for: En1000m500d2**
+Summary: nstep=176, UB=6.378606e+000, LB=6.378605e+000, stepUB=6.378606e+000, stepLB=6.378605e+000, time=360.08
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=373, UB=7.596063e+000, LB=7.596062e+000, stepUB=7.596063e+000, stepLB=7.596062e+000, time=16.36
+**
+Summary: nstep=400, UB=7.60e+000, LB=7.60e+000, stepUB=7.60e+000, stepLB=7.60e+000, time=17.14
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=400, UB=7.60e+000, LB=7.60e+000, stepUB=7.60e+000, stepLB=7.60e+000, time=17.11
+**
+Summary: nstep=501, UB=7.596276, LB=7.595482, stepUB=7.596276, stepLB=7.595482
+**
+** run APL for: En100m50d50**
+Summary: nstep=401, UB=7.596063e+000, LB=7.596062e+000, stepUB=7.596063e+000, stepLB=7.596062e+000, time=17.97
+**
+Summary: nstep=418, UB=7.60e+000, LB=7.60e+000, stepUB=7.60e+000, stepLB=7.60e+000, time=18.00
+**
+Summary: nstep=501, UB=7.596347, LB=7.595591, stepUB=7.596218, stepLB=7.595591
+**
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.828227e+000, dataL=5.158689e+003
+**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=91, UB=5.299234e+000, LB=5.299234e+000, stepUB=5.299234e+000, stepLB=5.299234e+000, time=19.94
+**
+** run APL for: En1000m50d20**
+Summary: nstep=74, UB=5.299233e+000, LB=5.299234e+000, stepUB=5.299233e+000, stepLB=5.299234e+000, time=15.30
+**
+** generate data: En500m100d50**
+** run APL for: En500m100d50**
+Summary: nstep=501, UB=1.113755e+001, LB=1.113755e+001, stepUB=1.113755e+001, stepLB=1.113755e+001, time=120.03
+**
+** run APL for: En500m100d50**
+Summary: nstep=350, UB=1.241148e+001, LB=1.241148e+001, stepUB=1.241148e+001, stepLB=1.241148e+001, time=112.41
+**
+Summary: nstep=501, UB=1.24e+001, LB=1.24e+001, stepUB=1.24e+001, stepLB=1.24e+001, time=154.95
+**
+Summary: nstep=317, UB=1.2411479e+001, LB=1.2411478e+001, stepUB=1.2411479e+001, stepLB=1.2411478e+001, Q=8.0000e+000, time=101.15
+**
+Summary: nstep=302, UB=1.24e+001, LB=1.24e+001, stepUB=1.24e+001, stepLB=1.24e+001, time=97.20
+**
+Summary: nstep=501, UB=12.411486, LB=12.411447, stepUB=12.411486, stepLB=12.411447
+**
+** run NEST for: En500m100d50**
+Summary: nstep=1001, UB=1.187579e+001, UB0=1.280052e+001**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m50d20
+** run APL for: En1000m50d20**
+Summary: nstep=72, UB=5.299235e+000, LB=5.299234e+000, stepUB=5.299235e+000, stepLB=5.299234e+000, time=14.82
+**
+Summary: nstep=33, UB=5.30e+000, LB=5.30e+000, stepUB=5.30e+000, stepLB=5.30e+000, time= 5.62
+**
+Summary: nstep=69, UB=5.2992339e+000, LB=5.2992340e+000, stepUB=5.2992339e+000, stepLB=5.2992340e+000, Q=4.0000e+000, time=14.09
+**
+Summary: nstep=30, UB=5.30e+000, LB=5.30e+000, stepUB=5.30e+000, stepLB=5.30e+000, time= 4.90
+**
+Summary: nstep=61, UB=5.299235, LB=5.299234, stepUB=5.299235, stepLB=5.299234
+**
+** run NEST for: En1000m50d20**
+Summary: nstep=1001, UB=3.754060e+000, dataL=1.147599e+003
+**
+** load data: En100m20d1
+** run APL for: En100m20d1**
+Summary: nstep=94, UB=7.131285e-001, LB=7.131277e-001, stepUB=7.131285e-001, stepLB=7.131277e-001, time= 3.29
+**
+Summary: nstep=87, UB=7.13e-001, LB=7.13e-001, stepUB=7.13e-001, stepLB=7.13e-001, time= 2.85
+**
+Summary: nstep=91, UB=7.1312846e-001, LB=7.1312780e-001, stepUB=7.1312846e-001, stepLB=7.1312780e-001, Q=2.0000e+000, time= 2.76
+**
+Summary: nstep=63, UB=7.13e-001, LB=7.13e-001, stepUB=7.13e-001, stepLB=7.13e-001, time= 1.78
+**
+Summary: nstep=399, UB=0.713128, LB=0.713128, stepUB=0.713128, stepLB=0.713128
+**
+** run NEST for: En100m20d1**
+Summary: nstep=1001, UB=7.131284e-001, dataL=3.835666e+002
+**
+Summary: nstep=1001, UB=7.131284e-001, L=2.560000e+002
+**
+** load data: En100m50d50
+** run APL for: En100m50d50**
+Summary: nstep=373, UB=7.596063e+000, LB=7.596062e+000, stepUB=7.596063e+000, stepLB=7.596062e+000, time=16.51
+**
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.828227e+000, dataL=5.158689e+003
+**
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.734489e+000, UB0=8.129539e+000**
+** run APL for: En100m50d50**
+Summary: nstep=178, UB=7.995219e+000, LB=7.995218e+000, stepUB=7.995219e+000, stepLB=7.995218e+000, time= 9.06
+**
+Summary: nstep=501, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time=26.24
+**
+Summary: nstep=174, UB=7.9952187e+000, LB=7.9952180e+000, stepUB=7.9952187e+000, stepLB=7.9952180e+000, Q=4.0000e+000, time= 8.38
+**
+Summary: nstep=145, UB=8.00e+000, LB=8.00e+000, stepUB=8.00e+000, stepLB=8.00e+000, time= 7.39
+**
+Summary: nstep=285, UB=7.995219, LB=7.995218, stepUB=7.995219, stepLB=7.995218
+**
+** run NEST for: En100m50d50**
+Summary: nstep=1001, UB=7.734489e+000, UB0=8.129539e+000**
+** run NEST for: En100m50d50**
+Summary: nstep=5001, UB=7.940915e+000, UB0=8.021701e+000**
+** run NEST for: En100m50d50**
+Summary: nstep=10001, UB=7.967670e+000, UB0=8.007428e+000**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.681115e+000, LB=6.681114e+000, stepUB=6.681115e+000, stepLB=6.681114e+000, time=389.32
+**
+** load data: En1000m500d2
+** generate data: En2000m800d1**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.681115e+000, LB=6.681114e+000, stepUB=6.681115e+000, stepLB=6.681114e+000, time=384.55
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=196, UB=6.681115e+000, LB=6.681114e+000, stepUB=6.681115e+000, stepLB=6.681114e+000, time=344.78
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=223, UB=6.681115e+000, LB=6.681115e+000, stepUB=6.681115e+000, stepLB=6.681115e+000, time=280.05
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=198, UB=6.68e+000, LB=6.68e+000, stepUB=6.68e+000, stepLB=6.68e+000, time=129.68
+**
+** load data: En1000m500d2
+** run APL for: En1000m500d2**
+Summary: nstep=501, UB=6.681117, LB=6.681111, stepUB=6.681116, stepLB=6.681111
+**
+** generate data: Lon50a497**
+** generate data: Lm50n448**
+** run APL for: Lm50n448**
+** generate data: m50n433**
+** run APL for: m50n433**
+Summary: nstep=20, UB=3.306318e+001, LB=3.306318e+001, stepUB=3.306318e+001, stepLB=3.306318e+001, time=401.12
+**
+** generate data: m200n5321**
+** run APL for: m200n5321**
+Summary: nstep=11, UB=1.470313e+002, LB=1.470313e+002, stepUB=1.470313e+002, stepLB=1.470313e+002, time=13.85
+**
+** load data: m200n5321
+** run APL for: m200n5321**
+Summary: nstep=10, UB=1.470313e+002, LB=1.470313e+002, stepUB=1.470313e+002, stepLB=1.470313e+002, time=12.82
+**
+** load data: m200n5321
+** generate data: m60n474**
+** run APL for: m60n474**
+Summary: nstep=18, UB=4.445370e+001, LB=4.445370e+001, stepUB=4.445370e+001, stepLB=4.445370e+001, time= 0.71
+**
+** load data: m200n5321
+** run APL for: m200n5321**
+** load data: m200n5321
+** run APL for: m200n5321**
+** load data: m200n5321
+** run APL for: m200n5321**
+Summary: nstep=501, UB=2.669845e+001, LB=2.480793e+001, stepUB=2.646609e+001, stepLB=2.480793e+001, time=1127.76
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=314, UB=1.369078e+001, LB=1.308715e+001, stepUB=1.369078e+001, stepLB=1.308715e+001, time=42.29
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=501, UB=1.38e+001, LB=1.23e+001, stepUB=1.37e+001, stepLB=1.23e+001, time=108.83
+**
+** load data: m60n474
+** load data: m60n474
+** run APL for: m60n474**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=32, UB=4.4453698e+001, LB=4.4453697e+001, stepUB=4.4453698e+001, stepLB=4.4453697e+001, Q=4.0000e+000, time= 0.95
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=501, UB=1.9703652e+001, LB=-4.4044744e+000, stepUB=1.9703652e+001, stepLB=-4.4044744e+000, Q=2.0459e+149, time=22.26
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=199, UB=1.367886e+001, LB=1.304240e+001, stepUB=1.367886e+001, stepLB=1.304240e+001, time=26.32
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=501, UB=1.40e+001, LB=1.20e+001, stepUB=1.37e+001, stepLB=1.20e+001, time=82.72
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=218, UB=1.38e+001, LB=1.29e+001, stepUB=1.38e+001, stepLB=1.29e+001, time=26.44
+**
+Summary: nstep=501, UB=1.9703653e+001, LB=-4.4044744e+000, stepUB=1.9703653e+001, stepLB=-4.4044744e+000, Q=2.0459e+149, time=22.18
+**
+Summary: nstep=501, UB=1.40e+001, LB=1.24e+001, stepUB=1.36e+001, stepLB=1.24e+001, time=104.77
+**
+Summary: nstep=501, UB=14.268378, LB=12.670515, stepUB=14.069094, stepLB=12.670515, time=56.05
+**
+** run APL for: m60n474**
+Summary: nstep=194, UB=1.376732e+001, LB=1.297910e+001, stepUB=1.376732e+001, stepLB=1.297910e+001, time=24.93
+**
+** generate data: n**
+** load data: m60n474
+** generate data: m300n12947**
+** run APL for: m300n12947**
+** load data: m300n12947
+** run APL for: m300n12947**
+** generate data: m300n4978**
+** run APL for: m300n4978**
+Summary: nstep=484, UB=0.000000e+000, LB=5.607460e+001, stepUB=0.000000e+000, stepLB=5.607460e+001, time=1083.06
+**
+Summary: nstep=501, UB=6.44e+001, LB=3.77e+001, stepUB=6.13e+001, stepLB=3.77e+001, time=1082.38
+**
+Summary: nstep=501, UB=6.22e+001, LB=1.01e+001, stepUB=6.16e+001, stepLB=1.01e+001, time=1074.51
+**
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=285, UB=1.364843e+001, LB=1.319944e+001, stepUB=1.364843e+001, stepLB=1.319944e+001, time=40.75
+**
+** run APL for: m60n474**
+Summary: nstep=223, UB=1.367059e+001, LB=1.311625e+001, stepUB=1.367059e+001, stepLB=1.311625e+001, time=49.61
+**
+** run APL for: m60n474**
+Summary: nstep=211, UB=1.365590e+001, LB=1.310744e+001, stepUB=1.365590e+001, stepLB=1.310744e+001, time=40.14
+**
+** load data: m200n5321
+** run APL for: m200n5321**
+** run APL for: m200n5321**
+Summary: nstep=501, UB=2.673619e+001, LB=2.491308e+001, stepUB=2.643554e+001, stepLB=2.491308e+001, time=1641.83
+**
+** load data: m200n5321
+** load data: m60n474
+** run APL for: m60n474**
+Summary: nstep=201, UB=1.414548e+001, LB=1.183834e+001, stepUB=1.370246e+001, stepLB=1.183834e+001, time=27.08
+**
+Summary: nstep=201, UB=1.9703652e+001, LB=-4.4044744e+000, stepUB=1.9703652e+001, stepLB=-4.4044744e+000, Q=1.0043e+059, time= 8.95
+**
+Summary: nstep=201, UB=1.49e+001, LB=9.76e+000, stepUB=1.41e+001, stepLB=9.76e+000, time=28.47
+**
+** load data: m200n5321
+** run APL for: m200n5321**
+** load data: m200n5321
+** run APL for: m200n5321**
+Summary: nstep=487, UB=0.000000e+000, LB=2.538965e+001, stepUB=0.000000e+000, stepLB=2.538965e+001, time=1107.56
+**
+** load data: m200n5321
+** run APL for: m200n5321**
+** load data: m200n5321
+** run APL for: m200n5321**
