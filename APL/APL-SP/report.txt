@@ -1,0 +1,285 @@
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPData**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+** run APL for: SPdata**
+Summary: nstep=501, UB=4.838085e+000, LB=4.838072e+000, stepUB=4.838084e+000, stepLB=4.838072e+000, gap=1.193739e-005, Q=3.2000e+001, time=1201.60
+**
+** run APL for: SPdata**
+Summary: nstep=270, UB=4.838074e+000, LB=4.838073e+000, stepUB=4.838074e+000, stepLB=4.838073e+000, gap=5.170356e-007, Q=6.4000e+001, time=488.44
+**
+** run APL for: SPdata**
+Summary: nstep=501, UB=5.166618, LB=3.100657, stepUB=5.166618, stepLB=3.100657, time=239.85
+**
+** run APL for: SPdata**
+Summary: nstep=227, UB=4.838074e+000, LB=4.838073e+000, stepUB=4.838074e+000, stepLB=4.838073e+000, gap=9.826806e-007, time=201.00
+**
+** run APL for: SPdataL20**
+Summary: nstep=1, UB=1.444151e-007, LB=0.000000e+000, stepUB=1.444151e-007, stepLB=0.000000e+000, gap=1.444151e-007, Q=1.0000e+000, time= 0.62
+**
+Summary: nstep=2, UB=0.000000, LB=0.000000, stepUB=0.000000, stepLB=0.000000, time= 0.44
+**
+** run APL for: SPdataL20**
+Summary: nstep=1, UB=1.444151e-007, LB=0.000000e+000, stepUB=1.444151e-007, stepLB=0.000000e+000, gap=1.444151e-007, Q=1.0000e+000, time= 0.61
+**
+Summary: nstep=2, UB=0.000000, LB=0.000000, stepUB=0.000000, stepLB=0.000000, time= 0.44
+**
+Summary: nstep=1, UB=1.148703e-007, LB=0.000000e+000, stepUB=1.148703e-007, stepLB=0.000000e+000, gap=1.148703e-007, time= 0.44
+**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataL20**
+** run APL for: SPdataSSN**
+** run APL for: SPdataSSN**
+** run APL for: SPdataSSN**
+** run APL for: SPdataL20**
+** run APL for: SPdataSSN**
+** run APL for: SPdataL20**
+** run APL for: SSN_SPdata**
+Summary: nstep=501, UB=5.912590e+000, LB=5.912583e+000, stepUB=5.912589e+000, stepLB=5.912583e+000, gap=6.211335e-006, Q=1.2800e+002, time=948.37
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=293, UB=4.838073e+000, LB=4.838072e+000, stepUB=4.838073e+000, stepLB=4.838072e+000, gap=7.431449e-007, Q=6.4000e+001, time=587.57
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=501, UB=2.549482e+005, LB=2.549332e+005, stepUB=2.549480e+005, stepLB=2.549332e+005, gap=1.483213e+001, Q=1.6777e+007, time=1580.17
+**
+Summary: nstep=501, UB=255318.193615, LB=253597.950782, stepUB=255318.193615, stepLB=253597.950782, time=361.76
+**
+Summary: nstep=151, UB=2.385053e+005, LB=2.549452e+005, stepUB=2.385053e+005, stepLB=2.549452e+005, gap=-1.643989e+004, time=246.53
+**
+** run APL for: Storm_SPdata**
+Summary: nstep=110, UB=1.546949e+007, LB=1.546949e+007, stepUB=1.546949e+007, stepLB=1.546949e+007, gap=-7.914886e-002, Q=2.1475e+009, time=450.06
+**
+** run APL for: Storm_SPdata**
+Summary: nstep=47, UB=1.310002e+007, LB=1.310002e+007, stepUB=1.310002e+007, stepLB=1.310002e+007, gap=7.040799e-007, time=20.81
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=186, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=-1.084280e-003, time=376.46
+**
+** run APL for: Term20_SPdata**
+** run APL for: SSN_SPdata**
+Summary: nstep=425, UB=5.912588e+000, LB=5.912587e+000, stepUB=5.912588e+000, stepLB=5.912587e+000, gap=8.343517e-007, time=380.70
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=293, UB=4.838073e+000, LB=4.838072e+000, stepUB=4.838073e+000, stepLB=4.838072e+000, gap=7.431449e-007, Q=6.4000e+001, time=513.52
+**
+Summary: nstep=501, UB=5.086603, LB=3.783117, stepUB=5.086603, stepLB=3.783117, time=235.23
+**
+Summary: nstep=323, UB=4.838074e+000, LB=4.838074e+000, stepUB=4.838074e+000, stepLB=4.838074e+000, gap=5.482428e-007, time=286.68
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=501, UB=2.549482e+005, LB=2.549332e+005, stepUB=2.549480e+005, stepLB=2.549332e+005, gap=1.483213e+001, Q=1.6777e+007, time=1470.54
+**
+Summary: nstep=501, UB=255318.193615, LB=253597.950782, stepUB=255318.193615, stepLB=253597.950782, time=359.89
+**
+Summary: nstep=186, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=-1.084280e-003, time=371.98
+**
+** run APL for: Storm_SPdata**
+Summary: nstep=110, UB=1.546949e+007, LB=1.546949e+007, stepUB=1.546949e+007, stepLB=1.546949e+007, gap=-7.914886e-002, Q=2.1475e+009, time=445.00
+**
+** run APL for: Storm_SPdata**
+** run APL for: SSN_SPdata**
+** run APL for: SSN_SPdata**
+** run APL for: SSN_SPdata**
+** run APL for: SSN_SPdata**
+Summary: nstep=501, UB=4.838073e+000, LB=4.838073e+000, stepUB=4.838073e+000, stepLB=4.838073e+000, gap=7.209311e-008, Q=6.4000e+001, time=925.27
+**
+Summary: nstep=501, UB=5.086603, LB=3.783117, stepUB=5.086603, stepLB=3.783117, time=244.34
+**
+Summary: nstep=501, UB=4.838074e+000, LB=4.838074e+000, stepUB=4.838074e+000, stepLB=4.838074e+000, gap=3.043294e-007, time=466.51
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=375, UB=7.352610e+000, LB=7.352609e+000, stepUB=7.352610e+000, stepLB=7.352609e+000, gap=7.245642e-007, Q=1.2800e+002, time=1378.61
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=501, UB=7.352610e+000, LB=7.352609e+000, stepUB=7.352610e+000, stepLB=7.352609e+000, gap=6.348027e-007, Q=1.2800e+002, time=1841.34
+**
+Summary: nstep=501, UB=7.838052, LB=6.499311, stepUB=7.530918, stepLB=6.499311, time=470.29
+**
+Summary: nstep=439, UB=7.352609e+000, LB=7.352609e+000, stepUB=7.352609e+000, stepLB=7.352609e+000, gap=-1.355853e-007, time=782.41
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=401, UB=7.352610e+000, LB=7.352609e+000, stepUB=7.352610e+000, stepLB=7.352609e+000, gap=6.804606e-007, Q=1.2800e+002, time=1424.94
+**
+Summary: nstep=401, UB=7.838052, LB=6.499311, stepUB=7.578802, stepLB=6.499311, time=369.31
+**
+Summary: nstep=401, UB=7.352610e+000, LB=7.352606e+000, stepUB=7.352610e+000, stepLB=7.352606e+000, gap=4.198017e-006, time=714.62
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=401, UB=4.838073e+000, LB=4.838072e+000, stepUB=4.838073e+000, stepLB=4.838072e+000, gap=6.599449e-007, Q=6.4000e+001, time=723.26
+**
+Summary: nstep=401, UB=5.086603, LB=3.783117, stepUB=5.086603, stepLB=3.783117, time=189.87
+**
+Summary: nstep=401, UB=4.838074e+000, LB=4.838074e+000, stepUB=4.838074e+000, stepLB=4.838074e+000, gap=5.053628e-007, time=355.73
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.550132e+005, LB=2.547323e+005, stepUB=2.549571e+005, stepLB=2.547323e+005, gap=2.248455e+002, Q=1.6777e+007, time=1154.77
+**
+Summary: nstep=401, UB=255318.193615, LB=253597.950782, stepUB=255318.193615, stepLB=253597.950782, time=288.76
+**
+Summary: nstep=186, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=-1.084280e-003, time=377.43
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=362, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=-2.139035e-005, time=924.58
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549602e+005, LB=2.546291e+005, stepUB=2.549602e+005, stepLB=2.546291e+005, gap=3.310795e+002, Q=1.6777e+007, time=1169.24
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=362, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=-2.139035e-005, time=947.58
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=2.405432e-007, time=1049.79
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=257664.874408, LB=243975.880040, stepUB=257664.874408, stepLB=243975.880040, time=296.11
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=255318.193615, LB=253597.950782, stepUB=255318.193615, stepLB=253597.950782, time=300.12
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=4.363368e-005, time=1085.42
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=378, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=9.621435e-007, time=987.58
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=2.405432e-007, time=1024.31
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549602e+005, LB=2.546291e+005, stepUB=2.549602e+005, stepLB=2.546291e+005, gap=3.310795e+002, Q=1.6777e+007, time=1166.56
+**
+Summary: nstep=401, UB=257664.874408, LB=243975.880040, stepUB=257664.874408, stepLB=243975.880040, time=287.69
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=501, UB=2.533087e+005, LB=2.532004e+005, stepUB=2.532930e+005, stepLB=2.532004e+005, gap=9.258361e+001, Q=1.6777e+007, time=2972.18
+**
+Summary: nstep=295, UB=244487.480963, LB=253287.463301, stepUB=244487.480963, stepLB=253287.463301, time=527.16
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=201, UB=2.533441e+005, LB=2.528322e+005, stepUB=2.533441e+005, stepLB=2.528322e+005, gap=5.119095e+002, Q=1.6777e+007, time=1102.65
+**
+Summary: nstep=201, UB=264213.696239, LB=236437.722300, stepUB=258154.607626, stepLB=236437.722300, time=291.67
+**
+Summary: nstep=201, UB=2.532875e+005, LB=2.532875e+005, stepUB=2.532875e+005, stepLB=2.532875e+005, gap=3.679608e-003, time=754.59
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=201, UB=2.553990e+005, LB=2.538835e+005, stepUB=2.551140e+005, stepLB=2.538835e+005, gap=1.230477e+003, Q=1.6777e+007, time=556.53
+**
+Summary: nstep=201, UB=255974.119046, LB=253597.950782, stepUB=255423.437820, stepLB=253597.950782, time=147.70
+**
+Summary: nstep=201, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=4.073658e-004, time=428.14
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=201, UB=4.838125e+000, LB=4.837941e+000, stepUB=4.838125e+000, stepLB=4.837941e+000, gap=1.837968e-004, Q=6.4000e+001, time=360.92
+**
+Summary: nstep=201, UB=7.027734, LB=0.538501, stepUB=5.550903, stepLB=0.538501, time=96.20
+**
+Summary: nstep=201, UB=4.839075e+000, LB=4.836638e+000, stepUB=4.839075e+000, stepLB=4.836638e+000, gap=2.437395e-003, time=180.20
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=201, UB=7.354437e+000, LB=7.351406e+000, stepUB=7.354090e+000, stepLB=7.351406e+000, gap=2.683424e-003, Q=1.2800e+002, time=716.88
+**
+Summary: nstep=201, UB=9.446537, LB=3.552086, stepUB=8.323381, stepLB=3.552086, time=190.72
+**
+Summary: nstep=201, UB=7.356870e+000, LB=7.345622e+000, stepUB=7.354770e+000, stepLB=7.345622e+000, gap=9.148243e-003, time=357.56
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+** run APL for: Storm_SPdata**
+Summary: nstep=110, UB=1.546949e+007, LB=1.546949e+007, stepUB=1.546949e+007, stepLB=1.546949e+007, gap=-7.914886e-002, Q=2.1475e+009, time=456.71
+**
+** run APL for: Storm_SPdata**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=300, UB=2.532875e+005, LB=2.532875e+005, stepUB=2.532875e+005, stepLB=2.532875e+005, gap=9.855139e-007, time=1189.12
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=501, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=1.090841e-005, time=1387.84
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=378, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=9.621435e-007, time=979.43
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=501, UB=2.533087e+005, LB=2.532004e+005, stepUB=2.532930e+005, stepLB=2.532004e+005, gap=9.258361e+001, Q=1.6777e+007, time=3006.68
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=350, UB=4.838074e+000, LB=4.838074e+000, stepUB=4.838074e+000, stepLB=4.838074e+000, gap=-6.267851e-008, Q=3.2000e+001, time=630.63
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=350, UB=4.838074e+000, LB=4.838074e+000, stepUB=4.838074e+000, stepLB=4.838074e+000, gap=-6.267851e-008, Q=3.2000e+001, time=628.57
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=293, UB=4.838073e+000, LB=4.838072e+000, stepUB=4.838073e+000, stepLB=4.838072e+000, gap=7.431449e-007, Q=6.4000e+001, time=535.87
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=501, UB=4.838073e+000, LB=4.838073e+000, stepUB=4.838073e+000, stepLB=4.838073e+000, gap=7.209311e-008, Q=6.4000e+001, time=923.75
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=401, UB=4.838073e+000, LB=4.838072e+000, stepUB=4.838073e+000, stepLB=4.838072e+000, gap=6.599449e-007, Q=6.4000e+001, time=754.31
+**
+Summary: nstep=401, UB=5.086603, LB=3.783117, stepUB=5.086603, stepLB=3.783117, time=193.47
+**
+Summary: nstep=401, UB=4.838074e+000, LB=4.838074e+000, stepUB=4.838074e+000, stepLB=4.838074e+000, gap=5.053628e-007, time=366.30
+**
+** run APL for: SSN_SPdata**
+Summary: nstep=401, UB=7.352610e+000, LB=7.352609e+000, stepUB=7.352610e+000, stepLB=7.352609e+000, gap=6.804606e-007, Q=1.2800e+002, time=1471.62
+**
+** run APL for: SSN_SPdata**
+** run APL for: SSN_SPdata**
+Summary: nstep=401, UB=7.838052, LB=6.499311, stepUB=7.578802, stepLB=6.499311, time=383.27
+**
+Summary: nstep=401, UB=7.352610e+000, LB=7.352606e+000, stepUB=7.352610e+000, stepLB=7.352606e+000, gap=4.198017e-006, time=730.15
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549602e+005, LB=2.546291e+005, stepUB=2.549602e+005, stepLB=2.546291e+005, gap=3.310795e+002, Q=1.6777e+007, time=1209.53
+**
+Summary: nstep=401, UB=257664.874408, LB=243975.880040, stepUB=257664.874408, stepLB=243975.880040, time=301.03
+**
+Summary: nstep=401, UB=2.549453e+005, LB=2.549453e+005, stepUB=2.549453e+005, stepLB=2.549453e+005, gap=2.405432e-007, time=1056.82
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.550132e+005, LB=2.547323e+005, stepUB=2.549571e+005, stepLB=2.547323e+005, gap=2.248455e+002, Q=1.6777e+007, time=1201.74
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=374, UB=2.451919e+005, LB=2.532162e+005, stepUB=2.451919e+005, stepLB=2.532162e+005, gap=-8.024283e+003, Q=1.6777e+007, time=2294.98
+**
+Summary: nstep=401, UB=254080.444488, LB=250325.709269, stepUB=254080.444488, stepLB=250325.709269, time=602.60
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=300, UB=2.532875e+005, LB=2.532875e+005, stepUB=2.532875e+005, stepLB=2.532875e+005, gap=9.855139e-007, time=1219.62
+**
+** run APL for: Term20_SPdata**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.532875e+005, LB=2.532875e+005, stepUB=2.532875e+005, stepLB=2.532875e+005, gap=2.463930e-007, time=1895.63
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.549602e+005, LB=2.546291e+005, stepUB=2.549602e+005, stepLB=2.546291e+005, gap=3.310795e+002, Q=1.6777e+007, time=1194.17
+**
+** run APL for: Term20_SPdata**
+Summary: nstep=401, UB=2.532923e+005, LB=2.532162e+005, stepUB=2.532923e+005, stepLB=2.532162e+005, gap=7.614912e+001, Q=3.3554e+007, time=2517.26
+**

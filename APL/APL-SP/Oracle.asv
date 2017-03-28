@@ -1,0 +1,67 @@
+function [f,g,f0] = Oracle(data, x)
+%%%%%%%%
+% Let p = [zeros(data.n2-data.dim_xi,1);ones(dim_xi,1)]
+% the primal form of the second stage problem is given by:
+% c'x + min p'f
+% s.t  
+%      A_1 f <= -A_2 x + b
+%          f >= 0
+% Hence the dual is given by
+% v(x,\xi):= max (-A_2 x + b)' y
+% s.t. 
+%      A_1' y ?? p
+%           y1 ?? 0
+% The sample average of the second stage problem is given by
+%
+% F(x) = c'x + 1/n \sum_{i=1}^ns V(x,xi_i),
+%
+% and the gradient is given by
+% c - 1/n A_2' * \sum_{i=1}^ns y2(\xi_i)
+%
+% One can also smooth V(x) by defining
+%F_\mu(x) = c'x + 1/n \sum_i  V_\mu(x,\xi_i)
+%where V_\mu(x,xi) = max (-A_2 x + b)'y - \mu \|y\|^2 /2
+%                    s.t.   A_1' y ?? p, y1 free, y2 <= 0
+
+
+
+f = -inf;
+sumf = 0;
+
+g = zeros(data.n,1);
+sumg = g;
+
+f0 = -inf;
+sumf0 = 0;
+
+for i = 1:data.ns, %% totally ns senarios
+    %% compute f0
+    data.org_dual.c = data.rand_second_rhs(i,:)' - A2(2:m2+1, 1:n1) * x;;
+    % solve the orginal dual
+    [r,od_res] = mosekopt('maximize echo(0)', data.org_dual);
+    od_sol = od_res.sol.itr.xx;
+    sumf0 = sumf0 + data.org_dual.c'*od_sol;
+    
+    if data.mu == 0 % no smooth
+        sumg = sumg + - A2(2:m2+1, 1:n1)' * od_sol(data.dim_xi+1:data.m2);
+    else % solve the smoothed dual
+        data.sm_dual.q = data.mu * eye(data.m2) /2;
+        data.sm_dual.c = -data.org_dual.c;
+        [r,sd_res] = mosekopt('minimize echo(0)', data.sm_dual);
+%        [sd_res] = mskqpopt (data.sm_dual.q, data.sm_dual.c, data.sm_dual.a,...
+%            data.sm_dual.blc, data.sm_dual.buc, data.sm_dual.blx,...
+%            data.sm_dual.bux );
+        sd_sol = sd_res.sol.itr.xx;
+        sumf = sumf + data.org_dual.c'*sd_sol - data.mu / 2 * sd_sol' * sd_sol;
+        sumg = sumg + data.b * sd_sol(data.dim_xi+1:data.m2);
+    end
+end
+
+f0 = sumf0 / data.ns;
+g = sumg / data.ns;
+if data.mu == 0,
+    f = f0;
+else 
+    f = sumf / data.ns;
+end
+
