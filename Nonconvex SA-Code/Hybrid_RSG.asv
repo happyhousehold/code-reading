@@ -1,0 +1,65 @@
+%% Hybrid RSG
+if (strcmp(cur_alg, 'Hybrid_RSG') == 1)
+    fprintf('     \n');
+    fprintf('*** Running Hybrid-RSG\n');
+    num_Hybrid_RSG = num_Hybrid_RSG+1;
+else
+    fprintf('     \n');
+    fprintf('*** Running Mirror descent SA\n');
+end
+if N_iter <= 1000
+    seed_val = data.seed+260;
+elseif   N_iter <= 5000
+    seed_val = data.seed+280;
+else
+    seed_val = data.seed+300;
+end
+Run_number = 0;
+j=1;
+grad_best  = zeros(1, Run_times);
+loss_best  = zeros(1, Run_times);
+best_solution = zeros(Run_times, data.dim+1);
+num_rnd = S;
+while j <= Run_times
+    data.vali= N_iter/(2*S);
+    eval_xbar;
+    j= j+1;
+end
+var_grad = var(grad_best);
+mean_grad = mean(grad_best);
+var_loss = var(loss_best);
+mean_loss = mean(loss_best);
+Results_showing;
+if strcmp(cur_alg, 'Hybrid_RSG') == 1
+    best_solution_Hybrid_RSG(count_Hybrid_RSG+1:count_Hybrid_RSG +Run_times,1) = N_iter;
+    best_solution_Hybrid_RSG(count_Hybrid_RSG+1:count_Hybrid_RSG+Run_times,2:end) = best_solution;
+    var_grad_Hybrid_RSG(num_Hybrid_RSG,1) = N_iter;
+    var_grad_Hybrid_RSG(num_Hybrid_RSG,2) = var_grad;
+    mean_grad_Hybrid_RSG(num_Hybrid_RSG,1) = N_iter;
+    mean_grad_Hybrid_RSG(num_Hybrid_RSG,2) = mean_grad;
+    var_loss_Hybrid_RSG(num_Hybrid_RSG,1) = N_iter;
+    var_loss_Hybrid_RSG(num_Hybrid_RSG,2) = var_loss;
+     mean_loss_Hybrid_RSG(num_Hybrid_RSG,1) = N_iter;
+    mean_loss_Hybrid_RSG(num_Hybrid_RSG,2) = mean_loss;
+    save(filename,'var_grad_Hybrid_RSG' ,'mean_grad_Hybrid_RSG','var_loss_Hybrid_RSG','mean_loss_Hybrid_RSG','best_solution_Hybrid_RSG', '-append');
+    frep=fopen(curr_path2,'a');
+    fprintf(frep,'     \n');
+    fprintf(frep,'*** Running Hybrid_RSG\n');
+    Results_showing2;
+    fclose(frep);
+    count_Hybrid_RSG = count_Hybrid_RSG + Run_times;
+else
+    best_solution_Mirror_descent = best_solution;
+    var_grad_Mirror_descent = var_grad;
+    mean_grad_Mirror_descent = mean_grad;
+    var_loss_Mirror_descent = var_loss;
+    mean_loss_Mirror_descent = mean_loss;
+    save(filename,'var_grad_Mirror_descent' ,'mean_grad_Mirror_descent','var_loss_Mirror_descent','mean_loss_Mirror_descent','best_solution_Mirror_descent', '-append');
+    frep=fopen(curr_path2,'a');
+    fprintf(frep,'     \n');
+    fprintf(frep,'*** Running Mirror_descent\n');
+    Results_showing2;
+    fclose(frep);
+end
+
+

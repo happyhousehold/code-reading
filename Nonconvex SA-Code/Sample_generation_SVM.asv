@@ -1,0 +1,47 @@
+% Generating or Loading initila sample
+while  running == 0
+    data_name = ['Initial Sample : ', filename];
+    mtitle = data_name;
+    awr = menu(mtitle, 'Generating new sample' , 'Load sample ' , 'Run Algorithms' , ' Quit');
+    %awr = menu(mtitle, 'Load training sample ' , 'load testing sample' , 'Run Algorithms' , ' Quit');
+    if awr == 1
+        data.dim = input('Enter the dimension of problem : ');
+        data.size = input('Enter the size of data set : ');
+        data.spr = input('Enter the sparsity of data set : '); 
+        instance_matrix = 10*sprand(data.size,data.dim, data.spr);
+        z_sample = rand(data.dim, 1)-rand(data.dim,1);
+        lb1 = instance_matrix*z_sample;
+        label_vector = (lb1 >=0).* ones(data.size,1) - (lb1 <0).* ones(data.size,1);
+        d = data.dim;
+        sz = data.size;
+        estimate_matrix = instance_matrix(1:N_initial,:);
+        estimate_lable = label_vector(1:N_initial);
+        %train_matrix = instance_matrix(N_initial+1: N_training,:);
+        %train_lable = label_vector(N_initial+1 : N_training);
+        data.test_matrix = instance_matrix(N_training+1:end ,:);
+        data.test_lable = label_vector(N_training+1: end,:);
+        z_ini = rand(data.dim, 1)-rand(data.dim,1);
+        train_size = length(train_lable);
+        test_size = length(data.test_lable);
+        filename = ['N', num2str(sz),'-d',num2str(d)];
+        save (filename, 'train_size' ,'test_size','data', 'z_ini' , 'estimate_matrix', 'estimate_lable' , 'train_matrix' , 'train_lable');
+        clear instance_matrix label_vector
+    elseif awr == 2
+        [filename,PathName,FilterIndex] = uigetfile('*.t');
+        [test_lable, test_matrix] = libsvmread(filename);
+        test_matrix = sparse(test_matrix);
+    elseif  awr == 3
+        if filename == ' '
+            error('You should choose an initial sample');
+        end
+        running = 1;
+    elseif  awr == 4
+        break;
+    end
+end
+if  awr == 4
+    break;
+end
+
+
+

@@ -1,0 +1,34 @@
+%final_solution = final_sol(gholam,:)';
+%data.vali= N_iter/2;
+min_grad = 10000;
+best_i =0;
+if strcmp(cur_alg, 'HBRSG') == 1
+    gholam = randi(N_iter,1, S);
+    smooth_SA;
+    for i = 1:S
+        final_solution = all_iterates (gholam(i),:)';
+        objective_computation;
+        Computing_Data;
+        if gradient_final < min_grad
+            min_grad = gradient_final;
+            best_i = gholam(i);
+        end
+    end
+    final_solution = all_iterates (best_i,:)';
+else
+    for i = 1: S
+        smooth_SA;
+        if gradient_final < min_grad
+            min_grad = gradient_final;
+            best_i = Run_number;
+        end
+    end
+    final_solution = final_sol(best_i,:)';
+    end
+clear all_iterates
+data.vali = N_vali;
+objective_computation2;
+Computing_Data;
+grad_best(j) = gradient_final;
+loss_best(j) = final_loss;
+

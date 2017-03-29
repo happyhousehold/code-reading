@@ -1,0 +1,28 @@
+% Main Program
+clear
+clc
+problem_selecting;
+if strcmp(data.problem, '') ~= 1
+    if (strcmp(data.problem, 'Invt') ~= 1)
+        initializer;
+        General_sample_generation;
+        curr_path = pwd;
+        curr_path = [curr_path,'\Result'];
+        curr_path2 = [curr_path,'\Results.txt'];
+        frep=fopen(curr_path2,'a');
+        fprintf(frep,'     \n');
+        fprintf(frep,'********** Data: %s ',filename);
+        fclose(frep);
+        indicator = 0;
+        filename = ['Results-',filename];
+        filename = [curr_path,'\
+        save(filename,'data');
+        common_prog;
+    else
+        zero_initializer;
+        zero_Estimating_Parameters;
+        while indicator == 0
+            Algorithm_Selecting;
+        end
+    end
+end

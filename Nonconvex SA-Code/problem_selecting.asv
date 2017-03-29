@@ -1,0 +1,22 @@
+%% Choosing the problem
+mtitle = 'Choose the problem you want to solve';
+method_selection = menu (mtitle, 'Least Square', 'Non-convex Regression', 'Non-convex supprot vector machine', 'Trigonometric function','Inventory','Change algorithm parameters','Change initial sapmle' ,'Quit');
+if method_selection == 1
+    data.problem = 'Least_sqr';
+elseif  method_selection == 2
+    nonsmooth_SA;
+elseif  method_selection == 3
+    fprintf('  \n');
+    Input_Parameters;
+    Estimating_Parameters;
+elseif  method_selection == 4
+    running = 0;
+    Sample_generation;
+    Estimating_Parameters;
+elseif  method_selection == 5
+    indicator = 1;
+    break;
+end
+if method_selection == 5
+    break;
+end    

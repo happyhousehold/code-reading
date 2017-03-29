@@ -1,0 +1,6 @@
+objective_final = mean(objective_value);
+gradient_final = mean (gg);
+run_time = mean(r_time);
+final_data = [run_time , objective_final];
+fprintf ('Runtime:% 4.2f     Final objective value:% 6.2f\n    Final gradi:% 6.2f\n', run_time , objective_final);
+clear objective_value objective_final r_time run_time

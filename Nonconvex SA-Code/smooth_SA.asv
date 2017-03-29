@@ -1,0 +1,24 @@
+z = initial_solution;
+if strcmp(cur_alg2, 'Hybrid_RSG') == 1
+    r = N_iter;
+else
+    generating_rnd_num;
+    r = r1;
+end
+Run_number = Run_number + 1;
+classic_SA;
+final_sol(Run_number,:) = z;
+final_solution = final_sol(Run_number,:)';
+
+% frep=fopen('Results.txt','a');
+% count_alg = count_alg +1;
+% if count_alg == 1
+%     fprintf(frep,'     \n');
+%     fprintf(frep,'********** Data: %s , rho: %6.5g\n',filename, lambda);
+% end
+% fprintf(frep,'     \n');
+% fprintf(frep,'*** Running Classic SA\n');
+% fprintf(frep,'     \n');
+% fprintf(frep,'       Runtime:% 4.2f     Final objective value:% 6.2f\n', final_data);
+% fclose(frep);
+

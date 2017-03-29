@@ -1,0 +1,70 @@
+Run 'Main_Program.m' .
+
+Please use the following instances to repeat the experiment in the paper:
+
+Least_sqr-n100-st0.1.mat   Least_sqr-n100-st1.mat     
+Least_sqr-n1000-st0.1.mat  SVM-n100.mat               
+Least_sqr-n1000-st1.mat    SVM-n1000.mat              
+Least_sqr-n500-st0.1.mat   SVM-n500.mat               
+Least_sqr-n500-st1.mat     
+
+Here is the description of instances:
+
+Least_sqr-n100-st0.1.mat : 
+
+Least square problem with dimension n=100 and standard deviation of noise st=0.1.  
+
+SVM-n500.mat :
+
+Supprot vector machine problem with dimension n=500. 
+
+The following parameters should be used for the algorithms:
+
+First-order methods:
+
+# of runs=20
+Evaluation sample size(K) = 75000
+
+
+RSG :
+
+Iteration limits= 1000, 5000, 25000,
+
+2-RSG :
+
+Iteration limits= 200, 1000, 5000,
+
+2_RSG-V:
+
+Number of iterations= 1000, 5000, 25000,
+# of candidate solution = 5.
+
+MD-SA:
+
+Number of iterations= 1000, 5000, 25000
+
+
+
+Zero-order methods:
+
+# of runs=10
+Evaluation sample size(K) = 10000
+
+RSGF :
+
+Iteration limits= 1000, 5000,
+
+2-RSGF :
+
+Iteration limits= 200, 1000,
+# of candidate solution = 5.
+
+2_RSGF-V
+
+Number of iterations= 1000, 5000,
+# of candidate solution = 5.
+
+MD-SA-GF:
+
+Number of iterations= 1000, 5000,
+

@@ -1,0 +1,3 @@
+stream1 = RandStream('mt19937ar','Seed',Seed_val);
+RandStream.setDefaultStream(stream1);
+r = randi(stream1,N_iter,1,num_rnd);

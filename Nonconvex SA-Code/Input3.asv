@@ -1,0 +1,16 @@
+awr = menu(mtitle, ['Iteration limit: ',num2str(N)] , ['# of Candidate solutions: ',num2str(S)] ,['Evaluation sample size: ', num2str(N_vali)] , ['Number of runs: ', num2str(Run_times)] , ['Run: ', cur_alg],'Change the algorithm','Quit');
+if awr ==1
+    N_ = input('Enter the iteration limit: ');
+elseif  awr ==2
+    S = input('Enter the number of candidate solution: ');
+elseif  awr ==3
+    N_vali = input('Enter the size of evaluation sample: ');
+    data.vali = N_vali;
+elseif  awr ==4
+    Run_times = input('Enter number of runs : ');
+elseif awr ==5
+elseif awr ==6
+    running = 1;
+elseif  awr == 6
+    break
+end

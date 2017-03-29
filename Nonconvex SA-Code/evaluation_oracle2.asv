@@ -1,0 +1,25 @@
+function [loss , obj , grad] = evaluation_oracle2(zz,data)
+
+% %%smooth case
+% data.validx = sprand(data.vali, data.dim, data.spr);
+% data.validy = data.validx*data.sample + normrnd(0,data.st,data.vali,1);
+% loss = (1/data.vali)*norm(data.validx*zz - data.validy)^2;
+% obj = loss + data.lambda*sum((zz.^2+data.eps^2*ones(data.dim,1)).^(data.p/2));
+% grad = (2/data.vali)*data.validx'*(data.validx*zz - data.validy)+ data.lambda*data.p*zz.*(zz.^2+data.eps^2*ones(data.dim,1)).^(data.p/2 -1);
+
+%% trigonometric funstions
+err = normrnd(0, data.st, data.vali,data.dim);
+% err = mean(data.valid)';
+obj1 = (data.dim - sum(cos(zz)))*ones(data.dim, 1)+cumsum(ones(data.dim, 1)).*(ones(data.dim, 1)-cos(zz))-sin(zz);
+obj = norm(obj1)^2;
+loss = obj;
+grad1 = sum(obj1)*sin(zz)+obj1.*(cumsum(ones(data.dim, 1)).*sin(zz)-cos(zz));
+grad = 2*grad1 + err;
+
+%% Non-convex SVM problem
+%  er1 = data.test_matrix*zz;
+%  obj1 = tanh(data.test_lable.*er1);
+% loss1 =  sum(ones(data.vali,1) - obj1)/data.vali;
+% obj = loss1 + data.lambda*norm(zz)^2;
+% loss = 100*sum(abs(sign(er1)-data.test_lable))/(2*data.vali);
+% grad = data.test_matrix'*(data.test_lable.*(obj1.^2-ones(data.vali,1)))/data.vali+ 2*data.lambda*zz;

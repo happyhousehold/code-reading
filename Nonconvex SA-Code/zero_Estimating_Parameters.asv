@@ -1,0 +1,36 @@
+e_0 = 100;
+data.mu = 0.1*e_0/((data.dim+4)*sqrt(N_iter));
+%G_sz = zeros(20,1);
+for i = 1 : 10
+    x(1)= randi(200);
+    x(2) = x(1) + randi(100);
+    y(1)= randi(200);
+    y(2) = y(1) + randi(100);
+    stch_grad1 = zeros(20,2);
+    stch_grad2 = zeros(20,2);
+    for j = 1 : 20
+        z = x';
+        zero_SGradient;
+        G1 = GR;
+        z = y';
+        zero_SGradient;
+        G2 = GR;
+        stch_grad1(2*j-1,:) = G1;
+        stch_grad2(2*j,:) = G2;
+        L11(j,:) = G1 - G2;
+%         G_sz(2*i-1) = G_sz(2*i-1) + norm(G1)^2;
+%         G_sz(2*i) = G_sz(2*i) + norm(G2)^2;
+     L00( = nor(L11(j,:))/norm(x-y);
+    end
+    sig(2*i-1) = sqrt(sum(var(stch_grad1)));
+    sig(2*i) = sqrt(sum(var(stch_grad2)));
+    L1(i) = norm(mean(L11))/norm(x-y);
+end
+L = max(L1);
+sigma = mean(sig);
+% G_sz = G_sz/20;
+% G_size = max(G_sz);
+% sig  = 4*sqrt(2*L*(data.dim+4)*e_0/N_iter);
+% sigma = (sqrt(3*sig^2/4 + 2*G_size/(data.dim+4))-sig)/2;
+D_bar = 2*e_0/L;
+

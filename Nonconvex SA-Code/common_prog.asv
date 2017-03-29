@@ -1,0 +1,6 @@
+Sample_generation;
+Input_Parameters;
+data.validr = normrnd(0, data.st, data.vali,data.dim);
+Estimating_Parameters;
+count_alg = 0;
+indicator = 0;

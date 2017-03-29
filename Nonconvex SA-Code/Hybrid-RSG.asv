@@ -1,0 +1,31 @@
+%% Hybrid RSG
+if (strcmp(data.problem, 'Mir-descent') ~= 1)
+fprintf('     \n');
+fprintf('*** Running Hybrid-RSG\n');
+seed_val = data.seed;
+Run_number = 0;
+j=1;
+grad_best  = zeros(1, Run_times);
+loss_best  = zeros(1, Run_times);
+num_rnd = S;
+while j <= Run_times
+    data.vali= N_iter/(2*S);
+    eval_xbar2;
+    j= j+1;
+end
+if (strcmp(data.problem, 'Mir-descent') ~= 1)
+    var_grad = var(grad_best);
+    mean_grad = mean(grad_best);
+    var_loss = var(loss_best);
+    mean_loss = mean(loss_best);
+    grad_best  = zeros(1, Run_times);
+    loss_best  = zeros(1, Run_times);
+else
+    var_grad = var(grad_best_ave);
+    mean_grad = mean(grad_best_ave);
+    var_loss  = var(loss_best_ave);
+    mean_loss = mean(loss_best_ave);
+    grad_best_ave  = zeros(1, Run_times);
+    loss_best_ave  = zeros(1, Run_times);
+end
+

@@ -1,0 +1,121 @@
+%% initialize
+seed_val = data.seed;
+zero_initializer;
+zero_Estimating_Parameters;
+total_solution  = zeros(500,2);
+%% RSG
+cur_alg = 'RSGF';
+N_iter = 1000;
+j = 1;
+temp = S;
+S = 1;
+Run_count = 0;
+grad_best  = zeros(1, Run_times);
+var_grad_RSGF = zeros(1,2);
+mean_grad_RSGF = zeros(1,2);
+var_loss_RSGF = zeros(1,2);
+mean_loss_RSGF = zeros(1,2);
+num_rnd = 1;
+while j <= Run_times
+    data.vali = N_iter/500;
+    zero_eval_xbar;
+    j = j+1
+    if j == Run_times+1
+        Run_count = Run_count+1;
+        haji = haji+1;
+        N_trace(haji) = N_iter;
+        N_iter = 5*N_iter;
+        var_grad_RSGF(Run_count) = var(grad_best(1:Run_times));
+        mean_grad_RSGF(Run_count) = mean(grad_best(1:Run_times));
+        var_loss_RSGF (Run_count) = var(loss_best(1:Run_times));
+        mean_loss_RSGF(Run_count) = mean(loss_best(1:Run_times));
+        grad_best  = zeros(1, Run_times);
+        loss_best  = zeros(1, Run_times);
+        if Run_count < 2
+            j = 1;
+        end
+    end
+end
+S = temp;
+%% 2-RSG
+cur_alg = '2-RSGF';
+
+j = 1;
+N_iter = 200;
+Run_count = 0;
+grad_best  = zeros(1, Run_times);
+loss_best  = zeros(1, Run_times);
+var_grad_2RSGF = zeros(1,2);
+mean_grad_2RSGF = zeros(1,2);
+var_loss_2RSGF = zeros(1,2);
+mean_loss_2RSGF = zeros(1,2);
+num_rnd = 1;
+while j <= Run_times
+    data.vali = N_iter/2;
+    zero_eval_xbar;
+    j = j+1
+    if j == Run_times+1
+        Run_count = Run_count+1;
+        haji = haji+1;
+        N_trace(haji) = N_iter;
+        N_iter = 5*N_iter;
+        var_grad_2RSGF(Run_count) = var(grad_best(1:Run_times));
+        mean_grad_2RSGF(Run_count) = mean(grad_best(1:Run_times));
+        var_loss_2RSGF (Run_count) = var(loss_best(1:Run_times));
+        mean_loss_2RSGF(Run_count) = mean(loss_best(1:Run_times));
+        grad_best  = zeros(1, Run_times);
+        loss_best  = zeros(1, Run_times);
+        if Run_count < 2
+            j = 1;
+        end
+    end
+end
+
+%% Hybrid RSG
+cur_alg = 'HBRSGF';
+N_iter = 1000;
+j=1;
+Run_count = 0;
+grad_best  = zeros(1, Run_times);
+loss_best = zeros(1, Run_times);
+var_grad_HBRSGF = zeros(1,2);
+mean_grad_HBRSGF = zeros(1,2);
+var_loss_HBRSGF = zeros(1,2);
+mean_loss_HBRSGF = zeros(1,2);
+grad_best2  = zeros(1, Run_times);
+loss_best2  = zeros(1, Run_times);
+var_grad_HBRSGF_ave = zeros(1,2);
+mean_grad_HBRSGF_ave = zeros(1,2);
+var_loss_HBRSGF_ave = zeros(1,2);
+mean_loss_HBRSGF_ave = zeros(1,2);
+num_rnd = S;
+while j <= Run_times
+    data.vali= N_iter/(2*S);
+    zero_eval_xbar;
+    j= j+1
+    if j == Run_times+1
+        Run_count = Run_count+1;
+        haji = haji+1;
+        N_trace(haji) = N_iter;
+        N_iter = 5*N_iter;
+        var_grad_HBRSGF(Run_count) = var(grad_best(1:Run_times));
+        mean_grad_HBRSGF(Run_count) = mean(grad_best(1:Run_times));
+        var_loss_HBRSGF (Run_count) = var(loss_best(1:Run_times));
+        mean_loss_HBRSGF(Run_count) = mean(loss_best(1:Run_times));
+        grad_best  = zeros(1, Run_times);
+        loss_best  = zeros(1, Run_times);
+        var_grad_HBRSGF_ave(Run_count) = var(grad_best2(1:Run_times));
+        mean_grad_HBRSGF_ave(Run_count) = mean(grad_best2(1:Run_times));
+        var_loss_HBRSGF_ave (Run_count) = var(loss_best2(1:Run_times));
+        mean_loss_HBRSGF_ave(Run_count) = mean(loss_best2(1:Run_times));
+        grad_best2  = zeros(1, Run_times);
+        loss_best2  = zeros(1, Run_times);
+        if Run_count < 2
+            j = 1;
+        end
+    end
+end
+
+filename = ['Result','-Simulation'];
+save (filename, 'var_grad_2RSG', 'mean_grad_2RSG' , 'var_loss_2RSG', 'mean_loss_2RSG', 'var_grad_HBRSG', 'mean_grad_HBRSG' , 'var_loss_HBRSG', 'mean_loss_HBRSG','var_grad_RSG', 'mean_grad_RSG' , 'var_loss_RSG', 'mean_loss_RSG');
+

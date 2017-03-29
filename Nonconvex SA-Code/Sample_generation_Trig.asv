@@ -1,0 +1,8 @@
+data.dim = input('Enter the dimension of problem : ');
+data.st = input('Enter the standard variation of noise : ');
+data.valid = normrnd(0, data.st, N_vali ,data.dim);
+z_ini = rand(data.dim,1);
+n = data.dim;
+std= 10*data.st;
+filename = ['Trig','-n',num2str(n), '-st', num2str(std)];
+% save (filename, 'data', 'z_ini');
