@@ -1,0 +1,1 @@
+[final_loss, objective_value , gg, gg_smooth]= evaluation_oracle2(final_solution,data);

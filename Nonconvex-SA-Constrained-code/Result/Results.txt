@@ -1,0 +1,18 @@
+     
+********** Instance: S3VM-n20.mat      
+     
+*** Running RSPG
+      Iteration limit :1000
+     
+       Mean of squared norm of gradient : 0.1660     
+      Variance of squared norm of gradinet: 5.09e-001
+     
+      Average corresponding objective values: 0.9161
+     
+*** Running RSPG
+      Iteration limit :3000
+     
+       Mean of squared norm of gradient : 0.0059     
+      Variance of squared norm of gradinet: 0.00e+000
+     
+      Average corresponding objective values: 0.8520
