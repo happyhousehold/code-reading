@@ -1,0 +1,155 @@
+% FUNG_NESTEROV   Solver for a class of saddle point problem
+%   This function implements the algorithm in the following paper:
+%       Nesterov, Y. (2005). Smooth minimization of non-smooth functions.
+%       Mathematical Programming, 103(1), 127-152.
+%   See Section 5.3 of the paper for the description of the algorithm.
+%
+%   [y,u]=funG_Nesterov(Q,K) solves the saddle point problem
+%       min_y max_u .5<Qy,y> + <Ky,u>
+%   where y and u are on simplices.
+%
+%   [y,u,etc]=funG_Nesterov(Q,K,par) solve the aforementioned problem
+%   with the following paramters and additional outputs:
+%
+%       par.MaxIter: Maximum number of iterations. This parameter is used
+%       to determine the stepsize of Nesterov's optimal gradient method.
+%
+%       par.bSilient: Verbose mode if this flag is true (default). Silent
+%       mode if it is false.
+%
+%       par.bDualityGap, par.fhDualityGap: Flag and function handle for
+%       calculating the duality gap function. The default value of
+%       par.bDaulityGap is false, and no duality gap is calculated.
+%
+%       par.TolGap: The stopping criterion based on the duality gap.
+%
+%       par.OutputInterval: If par.OutputInterval=k, the function
+%       calculates and displays duality gap after every k iterations. The
+%       default value is set to par.MaxIter (only calculate duality gap at
+%       the end).
+%
+%       etc: The additional outputs. etc.TotalIteration is the total number
+%       of iterations, etc.CPUTime is the CPU time at each iteration, and
+%       etc.DualityGap, etc.PrimalObjectiveValue and etc.DualObjectiveValue
+%       are the duality gap, primal objective value and dual objective
+%       value at each iteration, respectively.
+
+function [y, u, etc] = funG_Nesterov(fhGradG, fhK, fhKt, par)
+
+% --------------------------------------
+% Required parameters
+% --------------------------------------
+xsize = par.xsize;
+ysize = par.ysize;
+LipG = par.LipG;
+LipK = par.LipK;
+
+% --------------------------------------
+% Optional parameters
+% --------------------------------------
+% Values
+MaxIter = check_par(par, 'MaxIter', 100);
+x0 = check_par(par, 'x0', zeros(xsize));
+y0 = check_par(par, 'y0', zeros(ysize));
+OutputInterval = check_par(par, 'OutputInterval', 1);
+alphaX = check_par(par, 'alphaX', 1);
+alphaY = check_par(par, 'alphaY', 1);
+% Flags & Function handles
+bSilent = check_par(par, 'bSilent', false);
+fhPrimalObjectiveValue = check_par(par, 'fhPrimalObjectiveValue', []);
+bPrimalObjectiveValue = check_par(par, 'bPrimalObjectiveValue', false) & ~isempty(fhPrimalObjectiveValue);
+fhDualObjectiveValue = check_par(par, 'fhDualObjectiveValue', []);
+bDualObjectiveValue = check_par(par, 'bDualObjectiveValue', false) & ~isempty(fhDualObjectiveValue);
+
+fhProxX = check_par(par, 'fhProjx', @(x, dx)(x - dx));
+fhProxY = check_par(par, 'fhProjy', @funProxMapEuclL21);
+fhUserDefined = check_par(par, 'fhUserDefined', []);
+bUserDefined = check_par(par, 'bUserDefined', false) & ~isempty(fhUserDefined);
+fhDualityGap = check_par(par, 'fhDualityGap', []);
+bDualityGap = check_par(par, 'bDualityGap', false) & ~isempty(fhDualityGap);
+
+[yLength, xLength] = size(K);
+if nargin<3
+    par = [];
+end
+bSilent = check_par(par, 'bSilent', false);
+fhDualityGap = check_par(par, 'fhDualityGap', []);
+bDualityGap = check_par(par, 'bDualityGap', false) & ~isempty(fhDualityGap);
+TolGap = check_par(par, 'TolGap', 1e-3);
+OutputInterval = check_par(par, 'OutputInterval', MaxIter);
+LipG = check_par(par, 'LipG', 1);
+LipK = check_par(par, 'LipK', 0);
+
+mu = 2*LipK / MaxIter * sqrt(log(xLength)/log(yLength));
+Lmu = LipG + LipK^2/mu;
+
+% --------------------------------------
+% Initialization
+% --------------------------------------
+% Minimum of the distance generating functions
+xmin = ones(xLength, 1) / xLength;
+ymin = ones(yLength, 1) / yLength;
+
+etc = [];
+etc.CPUTime = nan(MaxIter, 1); 
+etc.PrimalObjectiveValue = nan(MaxIter, 1); 
+etc.DualObjectiveValue = nan(MaxIter, 1); 
+etc.DualityGap = nan(MaxIter, 1); 
+
+g = 0;
+x = xmin;
+utmp = funProxMapEntropy(ymin, K*(-x/mu));
+gradx = Q*x + (utmp'*K)';
+y = funProxMapEntropy(xmin, gradx/Lmu);
+u = utmp;
+
+tStart = tic;
+for t = 1 :MaxIter
+    % --------------------------------------
+    % Main iteration
+    % --------------------------------------
+    alpha = 2/t;
+    tau = 2/(t+2);
+    % ------Calculate the gradient after smoothing
+    g = g + gradx / alpha;
+
+    % ------Update z_k
+    z = funProxMapEntropy(xmin, g/Lmu);
+    
+    % ------Update x_{k+1}
+    x = tau*z + (1 - tau)*y;
+    utmp = funProxMapEntropy(ymin, K*(-x/mu));
+    u = tau*utmp + (1-tau)*u;
+    
+    % ------Update \hat x_{k+1}
+    gradx = Q*x + (utmp'*K)';
+    xhat = funProxMapEntropy(z, gradx*tau/Lmu);
+
+    % ------Update y_{k+1}
+    y = tau*xhat + (1-tau)*y;
+
+    % --------------------------------------
+    % Save CPU time
+    % --------------------------------------
+    etc.CPUTime(t) = toc(tStart);
+    % --------------------------------------
+    % Calculate the duality gap
+    % --------------------------------------
+    if bDualityGap && mod(t, OutputInterval) == 0
+        [etc.DualityGap(t), etc.PrimalObjectiveValue(t), etc.DualObjectiveValue(t)]...
+            = fhDualityGap(y, u);
+        silent_fprintf(bSilent, 't=%d, POBJ=%e, DOBJ=%e, DualityGap=%e\n', ...
+            t, etc.PrimalObjectiveValue(t), etc.DualObjectiveValue(t), etc.DualityGap(t));
+        if etc.DualityGap(t) < TolGap
+            break;
+        end
+    end
+end
+
+% --------------------------------------
+% Save iteration numbers
+% --------------------------------------
+etc.TotalIteration = t;
+
+end
+

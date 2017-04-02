@@ -1,0 +1,213 @@
+% Demo for model sum_{i=1}^{nCH}|MFS_jx-f_j|^2/2 + wRegRescaled*TV(x), where M is
+% the mask, F is the 2D Fourier transform matrix, S_j's are sensitivity
+% maps, and f_j's are k-space datasets. The solution x of the model is the
+% reconstructed image from partially parallel MRI.
+
+%% Init
+clear; clc; close all;
+
+% General parameter
+seed = 18;
+MaxIter = 500;
+RhoEstimate = 1;
+wReg = 1e-3;
+beta = 10;
+bSave = 0; % Flag for saving all results
+sSaveDir = '../../../../Results/MCPPI';
+sAlgRegexp = '(?!xTrue)^x.|^etc.|^par[^0].'; % Regular expression indicating algorithm results
+
+% lAlg = {'BOSVS', 'ALADMML', 'ALPADMML'};
+lAlg = {'ALADMML'};
+% lAlg = {'BOSVS'};
+
+% Parameters for output results
+bCompareObjVal = 1;
+bCompareImage = 0;
+bCompareRelErr = 1;
+bShowLS = 0;
+% sXLabel = 'Iteration';
+sXLabel = 'CPUTime';
+lAlgAll = {'BOSVS', ...
+    'ALADMML', 'ALPADMML',};
+lTitleAll = {'BOSVS', ...
+    'AL-ADMM w/ linesearch', 'ALP-ADMM w/ linesearch'};
+[ism, ind] = ismember(lAlg, lAlgAll);
+lAlg = lAlg(ism);
+ind = ind(ism);
+lTitle = lTitleAll(ind);
+
+if bSave
+    set(0, 'DefaultFigureVisible', 'off');
+    bLocked = 1;
+    while bLocked
+        sRootDirName = [sSaveDir, '/', num2str(now, '%.4f')];
+        if ~exist(sRootDirName, 'dir')
+            mkdir(sRootDirName);
+            bLocked = 0;
+        end
+    end
+    diary([sRootDirName, '/logPPI.txt']);
+    diary on;
+    fprintf('%%-- %s --%% \r\n', datestr(now));
+    fprintf('Results will be saved at %s\r\n', sRootDirName);
+end
+addpath(genpath('../../Solvers'));
+addpath(genpath('../../Utilities'));
+addpath(genpath('../../../../External/SBB_and_BOSVS'));
+addpath('../../../../Data/MCPPI');
+rng(seed);
+
+%% Load problem
+    load data0;
+    load sense_map;    
+    [nRow, nCol, nCh] = size(sense_map);
+    xTrue = zeros(nRow, nCol);
+% %     Linear mask
+    mask = zeros(nRow, nCol, nCh);
+    mask(1:4:end, :, :) = 1;
+    sigma = 1e-4 * sqrt(nRow*nCol);
+    
+%     Non-orthonormal Fourier matrix; ||F||=sqrt(nRow*nCol), so we need to
+%     rescale wRegRescaled to wRegRescaled*nRow*nCol
+    opA = @(x)(fftshift(fft2(ifftshift(bsxfun(@times, x, sense_map)))).*mask); % Matrix A
+    opAt = @(y)(sum(fftshift(ifft2(ifftshift(y.* mask))) .* conj(sense_map), 3).*(nRow*nCol)); % Matrix A'
+%     opA = @(x)(fft2(bsxfun(@times, x, sense_map)).*mask); % Matrix A
+%     opAt = @(y)(sum(ifft2(y.* mask) .* conj(sense_map), 3).*(nRow*nCol)); % Matrix A'
+    LipG = max(max(abs(sum(sense_map, 3))))^2 * (nRow*nCol);
+    wRegRescaled = wReg * nRow*nCol;
+    
+    LipK = sqrt(8) * wRegRescaled;
+
+    objA = ClA_operator(opA, opAt);
+    fTrue = datab0;
+    Noise = mask .* (sigma*(randn(nRow, nCol, nCh) + 1i*randn(nRow, nCol, nCh))/sqrt(2));
+    fNoisy = fTrue + Noise;
+    
+    %% Necessary function handles, constants and parameters
+    % Function handle for calculating energies
+    fhPOBJ = @(x)(.5*sum(sum(sum(abs(objA*x-fNoisy).^2))) + sum(sum(sqrt(sum(abs(funTVGrad(x, wRegRescaled, 1)).^2,3)))));
+    % Energy of ground truth
+    TrueEnergy = fhPOBJ(xTrue);
+    % Projection to the complex set {x: |x_i|<=1, i=1,...n}
+    fhProjx = @(x)(x./max(abs(x),1));
+    
+    % Parameters for the uniform solver
+    par = [];
+    par.xsize = [nRow, nCol];
+    par.Lmin = LipG / 10;
+    par.L0 = nRow*nCol;
+    par.M0 = LipK / 10;
+    par.xTrue = xTrue;
+    par.MaxIter = MaxIter;
+    par.RhoEstimate = RhoEstimate;
+    par.fhPrimalObjectiveValue = fhPOBJ;
+    par0 = par;
+    
+%     Save everything before running algorithms
+    if bSave
+        clear('-regexp', sAlgRegexp);
+        sFilename = [sRootDirName, '/PPI', num2str(iData), '.mat'];
+        save(sFilename);
+    end
+    
+    %% ALP-ADMM with linesearch
+    sDescription = 'ALPADMML';
+    sFunctionName = 'funLS_TV_ALPADMM_LineSearch';
+    if any(strcmp(sDescription, lAlg))
+        par = par0;
+        par.fhProjx = fhProjx;
+        
+        eval(['par', sDescription, ' = par;']);
+        fprintf('TVL2: %s algorithm is running...\n', sDescription);
+        tic;
+        [x, etc] = feval(sFunctionName, objA, fNoisy, wRegRescaled, par);
+        toc;
+        eval(['x', sDescription, '=x;']);
+        eval(['etc', sDescription, '=etc;']);
+    end
+    
+    %% AL-ADMM with linesearch
+    sDescription = 'ALADMML';
+    sFunctionName = 'funLS_TV_ALADMM_LineSearch';
+    if any(strcmp(sDescription, lAlg))
+        par = par0;
+        
+        eval(['par', sDescription, ' = par;']);
+        fprintf('TVL2: %s algorithm is running...\n', sDescription);
+        tic;
+        [x, etc] = feval(sFunctionName, objA, fNoisy, wRegRescaled, par);
+        toc;
+        eval(['x', sDescription, '=x;']);
+        eval(['etc', sDescription, '=etc;']);
+    end
+    
+    %% BOSVS
+    % ===============================
+    % BOSVS using Xiaojing's code
+    % ===============================
+    sDescription = 'BOSVS';
+    if any(strcmp(sDescription, lAlg))
+        wTV = wRegRescaled;
+        wP = beta*wTV;
+        
+        delta = 1;
+        
+        maxiter = MaxIter;
+        relchg_tol = eps;
+        bprint = true;
+        
+        eta = 3;
+        sig = 0.9999;
+        tau = 2;
+        bb_min = 1e-3;
+        C = 100;
+        
+        % -------- DEBUG ----------------
+        % Rescaled A
+        bb_min = bb_min * nRow*nCol;
+        C = C * nRow*nCol;
+        delta = delta * nRow*nCol;
+        % -------- DEBUG END-------------
+        opts = [];
+        opts.u0 = xTrue;
+        opts.bprint = bprint;
+        opts.BOS = false;
+        opts.fhEnergy = fhPOBJ;
+        
+        disp('BOSVS algorithm is solving TVL2 problem ...');
+        tic;
+        [ubosvs, outbosvs] = modTVL2_BOSVS(fNoisy, objA, nRow, nCol, wTV, wP, delta, maxiter, relchg_tol, opts, eta, sig, tau, bb_min, C);
+        toc;
+        xBOSVS = ubosvs;
+        etcBOSVS = [];
+        etcBOSVS.RelativeError = outbosvs.err;
+        etcBOSVS.PrimalObjectiveValue = outbosvs.obj;
+        etcBOSVS.CPUTime = outbosvs.cpu;
+        etcBOSVS.LineSearchCount = outbosvs.LineSearchCount;
+    end
+    
+    %% Show results
+%     % Plot
+%     scriptComparisonPlot;
+%     % Save
+%     if bSave
+%         fprintf('Saving algorithm results...\r\n');
+%         save(sFilename, '-regexp', sAlgRegexp, '-append');
+%         fprintf('Saving figures...\r\n');
+%         funCropEdge(hObjVal);
+%         print(hObjVal, '-dpdf', ...
+%             sprintf('%s/PPI%d_ObjVal_v_%s.pdf', sRootDirName, iData, sXLabel));
+%         funCropEdge(hRelErr);
+%         print(hRelErr, '-dpdf', ...
+%         sprintf('%s/PPI%d_RelErr_v_%s.pdf', sRootDirName, iData, sXLabel));
+%     end
+%     
+% 
+% if bSave
+%     close all;
+%     diary off;
+%     set(0, 'DefaultFigureVisible', 'on')
+% end
+% 
+
+imshow(abs(x), []); colorbar;
