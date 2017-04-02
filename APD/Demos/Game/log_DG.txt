@@ -1,0 +1,997 @@
+%-- 03-Mar-2014 15:32:40 --% 
+Seed = 18
+LipG multiplier: 1, LipK multiplier: 1
+m=1000,n=1000,k=100,LipG=148.596,LipK=0.999999,DX/DY=1,f(x0)=0.139433
+Running APD algorithm...
+t=2000,POBJ=9.565831e-03,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 7.85987
+Running Nesterov's algorithm...
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('/home/lance/Documents/Codes/2013_APD/Demos/Game/funProxMapEntropy.m',7,0)">funProxMapEntropy
+at 7</a>
+
+In ==> <a href="matlab: opentoline('/home/lance/Documents/Codes/2013_APD/Demos/Game/funG_NEST.m',57,0)">funG_NEST at 57</a>
+    z = funProxMapEntropy(xmin, g/Lmu);
+
+In ==> <a href="matlab: opentoline('/home/lance/Documents/Codes/2013_APD/Demos/Game/scriptDGame.m',108,0)">scriptDGame at 108</a>
+                    [~, ~, etc] = funG_NEST(Q, K, par);
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+scriptDGame
+%-- 03-Mar-2014 15:32:59 --% 
+Seed = 18
+LipG multiplier: 1, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=16.814,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076345e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.721686
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079452e-01
+Execution time (sec): 0.388601
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.080155e-01
+Execution time (sec): 0.880916
+
+LipG multiplier: 1, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=16.814,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076623e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.649245
+Running Nesterov's algorithm...
+t=2000, POBJ=6.081356e-01
+Execution time (sec): 0.452625
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.081825e-01
+Execution time (sec): 0.612641
+
+LipG multiplier: 1, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=16.814,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076884e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.512837
+Running Nesterov's algorithm...
+t=2000, POBJ=6.083807e-01
+Execution time (sec): 0.461303
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.084255e-01
+Execution time (sec): 0.503937
+
+LipG multiplier: 1, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=16.814,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077615e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.45598
+Running Nesterov's algorithm...
+t=2000, POBJ=6.086066e-01
+Execution time (sec): 0.357206
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.087824e-01
+Execution time (sec): 0.488963
+
+LipG multiplier: 1, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=16.814,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078081e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.451504
+Running Nesterov's algorithm...
+t=2000, POBJ=6.092568e-01
+Execution time (sec): 0.357147
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.093148e-01
+Execution time (sec): 0.50182
+
+LipG multiplier: 1, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=16.814,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.081193e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.458689
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095646e-01
+Execution time (sec): 0.410205
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.101101e-01
+Execution time (sec): 0.487535
+
+LipG multiplier: 1, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=16.814,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.084457e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.445124
+Running Nesterov's algorithm...
+t=2000, POBJ=6.107049e-01
+Execution time (sec): 0.356534
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.112621e-01
+Execution time (sec): 0.486264
+
+LipG multiplier: 1, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=16.814,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.084790e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.449351
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114067e-01
+Execution time (sec): 0.356274
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.130429e-01
+Execution time (sec): 0.485505
+
+LipG multiplier: 1, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=16.814,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.089500e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.453897
+Running Nesterov's algorithm...
+t=2000, POBJ=6.137690e-01
+Execution time (sec): 0.354571
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.166256e-01
+Execution time (sec): 0.487063
+
+LipG multiplier: 1.41421, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=23.7786,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076328e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.714307
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079511e-01
+Execution time (sec): 0.431839
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.080263e-01
+Execution time (sec): 0.868279
+
+LipG multiplier: 1.41421, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=23.7786,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076553e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.65092
+Running Nesterov's algorithm...
+t=2000, POBJ=6.081218e-01
+Execution time (sec): 0.502217
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.081926e-01
+Execution time (sec): 0.609012
+
+LipG multiplier: 1.41421, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=23.7786,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076983e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.518546
+Running Nesterov's algorithm...
+t=2000, POBJ=6.083986e-01
+Execution time (sec): 0.404602
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.084346e-01
+Execution time (sec): 0.489011
+
+LipG multiplier: 1.41421, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=23.7786,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077628e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.444565
+Running Nesterov's algorithm...
+t=2000, POBJ=6.086364e-01
+Execution time (sec): 0.348821
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.087908e-01
+Execution time (sec): 0.475911
+
+LipG multiplier: 1.41421, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=23.7786,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078020e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.438986
+Running Nesterov's algorithm...
+t=2000, POBJ=6.092555e-01
+Execution time (sec): 0.352868
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.093199e-01
+Execution time (sec): 0.554382
+
+LipG multiplier: 1.41421, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=23.7786,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.080787e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.453086
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095670e-01
+Execution time (sec): 0.363332
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.100929e-01
+Execution time (sec): 0.481291
+
+LipG multiplier: 1.41421, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=23.7786,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.084326e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.445229
+Running Nesterov's algorithm...
+t=2000, POBJ=6.107119e-01
+Execution time (sec): 0.349306
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.113465e-01
+Execution time (sec): 0.483614
+
+LipG multiplier: 1.41421, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=23.7786,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.084034e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.444739
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114101e-01
+Execution time (sec): 0.345112
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.129627e-01
+Execution time (sec): 0.479416
+
+LipG multiplier: 1.41421, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=23.7786,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.089834e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.436984
+Running Nesterov's algorithm...
+t=2000, POBJ=6.137733e-01
+Execution time (sec): 0.3501
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.170638e-01
+Execution time (sec): 0.483706
+
+LipG multiplier: 2, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=33.628,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076310e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.705693
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079438e-01
+Execution time (sec): 0.39057
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.080483e-01
+Execution time (sec): 0.87133
+
+LipG multiplier: 2, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=33.628,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076523e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.658351
+Running Nesterov's algorithm...
+t=2000, POBJ=6.081066e-01
+Execution time (sec): 0.462043
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.082135e-01
+Execution time (sec): 0.609539
+
+LipG multiplier: 2, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=33.628,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077009e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.514288
+Running Nesterov's algorithm...
+t=2000, POBJ=6.084075e-01
+Execution time (sec): 0.403177
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.084537e-01
+Execution time (sec): 0.485614
+
+LipG multiplier: 2, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=33.628,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077544e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.449855
+Running Nesterov's algorithm...
+t=2000, POBJ=6.086762e-01
+Execution time (sec): 0.346769
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.088087e-01
+Execution time (sec): 0.478673
+
+LipG multiplier: 2, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=33.628,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077989e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.43737
+Running Nesterov's algorithm...
+t=2000, POBJ=6.092515e-01
+Execution time (sec): 0.344128
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.093346e-01
+Execution time (sec): 0.483188
+
+LipG multiplier: 2, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=33.628,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.080090e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.441621
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095705e-01
+Execution time (sec): 0.350725
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.101078e-01
+Execution time (sec): 0.486714
+
+LipG multiplier: 2, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=33.628,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.084031e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.489976
+Running Nesterov's algorithm...
+t=2000, POBJ=6.107218e-01
+Execution time (sec): 0.393882
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.112810e-01
+Execution time (sec): 0.541964
+
+LipG multiplier: 2, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=33.628,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.084754e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.484701
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114150e-01
+Execution time (sec): 0.386086
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.133123e-01
+Execution time (sec): 0.538094
+
+LipG multiplier: 2, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=33.628,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.090256e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.49497
+Running Nesterov's algorithm...
+t=2000, POBJ=6.137793e-01
+Execution time (sec): 0.393071
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.168129e-01
+Execution time (sec): 0.533465
+
+LipG multiplier: 2.82843, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=47.5571,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076287e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.732725
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079902e-01
+Execution time (sec): 0.3892
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.080937e-01
+Execution time (sec): 0.883231
+
+LipG multiplier: 2.82843, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=47.5571,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076555e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.654611
+Running Nesterov's algorithm...
+t=2000, POBJ=6.080930e-01
+Execution time (sec): 0.451877
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.082556e-01
+Execution time (sec): 0.675294
+
+LipG multiplier: 2.82843, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=47.5571,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076860e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.531055
+Running Nesterov's algorithm...
+t=2000, POBJ=6.083870e-01
+Execution time (sec): 0.457786
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.084940e-01
+Execution time (sec): 0.550331
+
+LipG multiplier: 2.82843, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=47.5571,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077371e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.504472
+Running Nesterov's algorithm...
+t=2000, POBJ=6.087255e-01
+Execution time (sec): 0.393178
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.088492e-01
+Execution time (sec): 0.53877
+
+LipG multiplier: 2.82843, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=47.5571,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078069e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.496144
+Running Nesterov's algorithm...
+t=2000, POBJ=6.092419e-01
+Execution time (sec): 0.392539
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.093439e-01
+Execution time (sec): 0.536112
+
+LipG multiplier: 2.82843, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=47.5571,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078981e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.492909
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095751e-01
+Execution time (sec): 0.361909
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.101779e-01
+Execution time (sec): 0.480101
+
+LipG multiplier: 2.82843, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=47.5571,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.083433e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.44627
+Running Nesterov's algorithm...
+t=2000, POBJ=6.107355e-01
+Execution time (sec): 0.356931
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.112607e-01
+Execution time (sec): 0.493597
+
+LipG multiplier: 2.82843, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=47.5571,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.086531e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.449312
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114219e-01
+Execution time (sec): 0.360725
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.137228e-01
+Execution time (sec): 0.490992
+
+LipG multiplier: 2.82843, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=47.5571,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.090772e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.497201
+Running Nesterov's algorithm...
+t=2000, POBJ=6.137878e-01
+Execution time (sec): 0.391873
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.157693e-01
+Execution time (sec): 0.535904
+
+LipG multiplier: 4, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=67.256,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076297e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.800094
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079181e-01
+Execution time (sec): 0.439075
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.081838e-01
+Execution time (sec): 1.01118
+
+LipG multiplier: 4, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=67.256,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076526e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.7277
+Running Nesterov's algorithm...
+t=2000, POBJ=6.080768e-01
+Execution time (sec): 0.512216
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.083448e-01
+Execution time (sec): 0.631316
+
+LipG multiplier: 4, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=67.256,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076806e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.528589
+Running Nesterov's algorithm...
+t=2000, POBJ=6.083130e-01
+Execution time (sec): 0.422269
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.085842e-01
+Execution time (sec): 0.559851
+
+LipG multiplier: 4, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=67.256,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077122e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.476316
+Running Nesterov's algorithm...
+t=2000, POBJ=6.087755e-01
+Execution time (sec): 0.363977
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.089139e-01
+Execution time (sec): 0.507595
+
+LipG multiplier: 4, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=67.256,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078308e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.468664
+Running Nesterov's algorithm...
+t=2000, POBJ=6.092210e-01
+Execution time (sec): 0.370304
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.094459e-01
+Execution time (sec): 0.518936
+
+LipG multiplier: 4, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=67.256,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077567e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.499179
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095812e-01
+Execution time (sec): 0.390621
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.102103e-01
+Execution time (sec): 0.54149
+
+LipG multiplier: 4, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=67.256,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.082367e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.559261
+Running Nesterov's algorithm...
+t=2000, POBJ=6.107542e-01
+Execution time (sec): 0.405102
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.114848e-01
+Execution time (sec): 0.58566
+
+LipG multiplier: 4, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=67.256,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.088797e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.535594
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114317e-01
+Execution time (sec): 0.409541
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.134433e-01
+Execution time (sec): 0.573316
+
+LipG multiplier: 4, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=67.256,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.091373e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.525832
+Running Nesterov's algorithm...
+t=2000, POBJ=6.137997e-01
+Execution time (sec): 0.397616
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.149853e-01
+Execution time (sec): 0.539166
+
+LipG multiplier: 5.65685, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=95.1143,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076277e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.822105
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079332e-01
+Execution time (sec): 0.470955
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.083415e-01
+Execution time (sec): 1.02728
+
+LipG multiplier: 5.65685, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=95.1143,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076504e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.786208
+Running Nesterov's algorithm...
+t=2000, POBJ=6.080129e-01
+Execution time (sec): 0.519165
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.085623e-01
+Execution time (sec): 0.701635
+
+LipG multiplier: 5.65685, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=95.1143,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076671e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.610198
+Running Nesterov's algorithm...
+t=2000, POBJ=6.082179e-01
+Execution time (sec): 0.4586
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.087473e-01
+Execution time (sec): 0.554293
+
+LipG multiplier: 5.65685, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=95.1143,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076771e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.51644
+Running Nesterov's algorithm...
+t=2000, POBJ=6.087963e-01
+Execution time (sec): 0.395775
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.090860e-01
+Execution time (sec): 0.554077
+
+LipG multiplier: 5.65685, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=95.1143,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078481e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.549243
+Running Nesterov's algorithm...
+t=2000, POBJ=6.091791e-01
+Execution time (sec): 0.417879
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.096608e-01
+Execution time (sec): 0.561368
+
+LipG multiplier: 5.65685, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=95.1143,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078097e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.55714
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095886e-01
+Execution time (sec): 0.413696
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.103042e-01
+Execution time (sec): 0.547057
+
+LipG multiplier: 5.65685, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=95.1143,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.080903e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.4913
+Running Nesterov's algorithm...
+t=2000, POBJ=6.107796e-01
+Execution time (sec): 0.392764
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.114997e-01
+Execution time (sec): 0.542963
+
+LipG multiplier: 5.65685, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=95.1143,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.091625e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.493119
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114459e-01
+Execution time (sec): 0.394262
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.130158e-01
+Execution time (sec): 0.541091
+
+LipG multiplier: 5.65685, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=95.1143,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.092017e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.491503
+Running Nesterov's algorithm...
+t=2000, POBJ=6.138165e-01
+Execution time (sec): 0.39354
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.159387e-01
+Execution time (sec): 0.549361
+
+LipG multiplier: 8, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=134.512,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076295e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.790757
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079123e-01
+Execution time (sec): 0.443445
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.086968e-01
+Execution time (sec): 0.972507
+
+LipG multiplier: 8, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=134.512,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076372e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.737284
+Running Nesterov's algorithm...
+t=2000, POBJ=6.081435e-01
+Execution time (sec): 0.514081
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.088418e-01
+Execution time (sec): 0.692577
+
+LipG multiplier: 8, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=134.512,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076670e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.583192
+Running Nesterov's algorithm...
+t=2000, POBJ=6.082664e-01
+Execution time (sec): 0.456391
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.092710e-01
+Execution time (sec): 0.549184
+
+LipG multiplier: 8, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=134.512,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077128e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.506762
+Running Nesterov's algorithm...
+t=2000, POBJ=6.087251e-01
+Execution time (sec): 0.402206
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.095138e-01
+Execution time (sec): 0.548883
+
+LipG multiplier: 8, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=134.512,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078150e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.495369
+Running Nesterov's algorithm...
+t=2000, POBJ=6.091027e-01
+Execution time (sec): 0.39159
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.097526e-01
+Execution time (sec): 0.542244
+
+LipG multiplier: 8, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=134.512,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078408e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.498059
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095958e-01
+Execution time (sec): 0.395328
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.105583e-01
+Execution time (sec): 0.547096
+
+LipG multiplier: 8, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=134.512,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.079935e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.50418
+Running Nesterov's algorithm...
+t=2000, POBJ=6.108130e-01
+Execution time (sec): 0.39005
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.115591e-01
+Execution time (sec): 0.541943
+
+LipG multiplier: 8, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=134.512,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.094959e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.542881
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114663e-01
+Execution time (sec): 0.387396
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.142111e-01
+Execution time (sec): 0.5414
+
+LipG multiplier: 8, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=134.512,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.092617e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.51697
+Running Nesterov's algorithm...
+t=2000, POBJ=6.138401e-01
+Execution time (sec): 0.397613
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.182692e-01
+Execution time (sec): 0.558982
+
+LipG multiplier: 11.3137, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=190.229,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076346e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.819649
+Running Nesterov's algorithm...
+t=2000, POBJ=6.078699e-01
+Execution time (sec): 0.453076
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.096937e-01
+Execution time (sec): 0.965385
+
+LipG multiplier: 11.3137, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=190.229,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076673e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.751516
+Running Nesterov's algorithm...
+t=2000, POBJ=6.080419e-01
+Execution time (sec): 0.539009
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.097049e-01
+Execution time (sec): 0.737667
+
+LipG multiplier: 11.3137, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=190.229,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076769e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.570807
+Running Nesterov's algorithm...
+t=2000, POBJ=6.083584e-01
+Execution time (sec): 0.465524
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.095086e-01
+Execution time (sec): 0.581839
+
+LipG multiplier: 11.3137, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=190.229,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077021e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.506262
+Running Nesterov's algorithm...
+t=2000, POBJ=6.085224e-01
+Execution time (sec): 0.395326
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.098715e-01
+Execution time (sec): 0.5623
+
+LipG multiplier: 11.3137, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=190.229,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077505e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.509781
+Running Nesterov's algorithm...
+t=2000, POBJ=6.089859e-01
+Execution time (sec): 0.398279
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.107602e-01
+Execution time (sec): 0.563801
+
+LipG multiplier: 11.3137, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=190.229,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078497e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.494212
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095979e-01
+Execution time (sec): 0.398528
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.111537e-01
+Execution time (sec): 0.567939
+
+LipG multiplier: 11.3137, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=190.229,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.081096e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.506447
+Running Nesterov's algorithm...
+t=2000, POBJ=6.108547e-01
+Execution time (sec): 0.453568
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.136092e-01
+Execution time (sec): 0.599362
+
+LipG multiplier: 11.3137, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=190.229,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.098137e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.524701
+Running Nesterov's algorithm...
+t=2000, POBJ=6.114958e-01
+Execution time (sec): 0.399251
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.170283e-01
+Execution time (sec): 0.564929
+
+LipG multiplier: 11.3137, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=190.229,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.093001e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.523897
+Running Nesterov's algorithm...
+t=2000, POBJ=6.138730e-01
+Execution time (sec): 0.394814
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.195656e-01
+Execution time (sec): 0.558954
+
+LipG multiplier: 16, LipK multiplier: 1
+m=1000,n=10,k=10,LipG=269.024,LipK=0.999863,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076439e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.855362
+Running Nesterov's algorithm...
+t=2000, POBJ=6.079146e-01
+Execution time (sec): 0.442546
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.111294e-01
+Execution time (sec): 0.927154
+
+LipG multiplier: 16, LipK multiplier: 1.41421
+m=1000,n=10,k=10,LipG=269.024,LipK=1.41402,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076531e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.72337
+Running Nesterov's algorithm...
+t=2000, POBJ=6.081058e-01
+Execution time (sec): 0.509838
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.113571e-01
+Execution time (sec): 0.683387
+
+LipG multiplier: 16, LipK multiplier: 2
+m=1000,n=10,k=10,LipG=269.024,LipK=1.99973,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.077140e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.571439
+Running Nesterov's algorithm...
+t=2000, POBJ=6.081628e-01
+Execution time (sec): 0.456091
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.118752e-01
+Execution time (sec): 0.56954
+
+LipG multiplier: 16, LipK multiplier: 2.82843
+m=1000,n=10,k=10,LipG=269.024,LipK=2.82804,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.076896e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.516078
+Running Nesterov's algorithm...
+t=2000, POBJ=6.084019e-01
+Execution time (sec): 0.401226
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.123873e-01
+Execution time (sec): 0.554822
+
+LipG multiplier: 16, LipK multiplier: 4
+m=1000,n=10,k=10,LipG=269.024,LipK=3.99945,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.078445e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.50445
+Running Nesterov's algorithm...
+t=2000, POBJ=6.088679e-01
+Execution time (sec): 0.398994
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.128171e-01
+Execution time (sec): 0.550021
+
+LipG multiplier: 16, LipK multiplier: 5.65685
+m=1000,n=10,k=10,LipG=269.024,LipK=5.65608,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.080835e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.5031
+Running Nesterov's algorithm...
+t=2000, POBJ=6.095815e-01
+Execution time (sec): 0.401403
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.147446e-01
+Execution time (sec): 0.550574
+
+LipG multiplier: 16, LipK multiplier: 8
+m=1000,n=10,k=10,LipG=269.024,LipK=7.9989,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.083963e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.51079
+Running Nesterov's algorithm...
+t=2000, POBJ=6.109018e-01
+Execution time (sec): 0.411203
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.172868e-01
+Execution time (sec): 0.55052
+
+LipG multiplier: 16, LipK multiplier: 11.3137
+m=1000,n=10,k=10,LipG=269.024,LipK=11.3122,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.098979e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.505928
+Running Nesterov's algorithm...
+t=2000, POBJ=6.115387e-01
+Execution time (sec): 0.423798
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.182679e-01
+Execution time (sec): 0.545337
+
+LipG multiplier: 16, LipK multiplier: 16
+m=1000,n=10,k=10,LipG=269.024,LipK=15.9978,DX/DY=0.944871,f(x0)=0.916682
+Running APD algorithm...
+t=2000,POBJ=6.092775e-01,DOBJ=NaN,DualityGap=NaN,RelErr=NaN
+Execution time (sec): 0.49963
+Running Nesterov's algorithm...
+t=2000, POBJ=6.139186e-01
+Execution time (sec): 0.420079
+Running Nemirovski's algorithm...
+t=2000, POBJ=6.179958e-01
+Execution time (sec): 0.57216
+
